@@ -1,23 +1,29 @@
 name: Update Power BI News
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily
-  workflow_dispatch: # Allows manual "Run Workflow" button
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme-with-blog:
-    name: Update latest blogs
+  update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Explicitly grants permission to edit files
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
-      - name: Pull Power BI Blog
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://powerbi.microsoft.com/en-us/blog/feed/"
-          max_post_count: 10
-          # This ensures it looks for the tags below
-          template: "$newline- [$title]($url)" 
+
+      - name: Fetch RSS and Create File
+        run: |
+          echo "# Latest Power BI Features" > README.md
+          echo "Last updated: $(date)" >> README.md
+          echo "" >> README.md
+          curl -s https://powerbi.microsoft.com/en-us/blog/feed/ | grep -oP '(?<=<title>).*?(?=</title>)|(?<=<link>).*?(?=</link>)' | sed 'N;s/\(.*\)\n\(.*\)/- [\1](\2)/' | head -n 20 >> README.md
+
+      - name: Commit and Push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add README.md
+          git commit -m "Update PBI news" || exit 0
+          git push
