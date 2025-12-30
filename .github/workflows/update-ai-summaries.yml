@@ -1,4 +1,4 @@
-name: AI Power BI Summarizer (Fixed)
+name: AI Power BI Summarizer (No Card Required)
 on:
   schedule:
     - cron: '45 0 * * *'
@@ -19,69 +19,52 @@ jobs:
           python-version: '3.10'
 
       - name: Install Tools
-        run: pip install google-generativeai requests beautifulsoup4
+        run: pip install groq requests beautifulsoup4
 
       - name: AI Processing
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python - <<EOF
-          import os, requests, time, google.generativeai as genai
+          import os, requests, time
+          from groq import Groq
           from bs4 import BeautifulSoup
           from datetime import datetime
 
-          # 1. Update: Use the newer stable model name
-          # We also force the 'v1' API version to avoid the 404 error
-          genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-          model = genai.GenerativeModel('gemini-2.0-flash') 
-
+          # 1. Setup Groq (Free & No Credit Card)
+          client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
           HEADERS = {'User-Agent': 'Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
 
           def fetch_summary(url):
-              for attempt in range(3):
-                  try:
-                      time.sleep(2)
-                      page = requests.get(url, headers=HEADERS, timeout=20)
-                      page.raise_for_status()
-                      soup = BeautifulSoup(page.text, 'html.parser')
-                      
-                      content = soup.find('div', {'class': 'entry-content'}) or soup.find('article') or soup.body
-                      text = content.get_text(separator=' ', strip=True)[:6000]
-                      
-                      prompt = f"Summarize this Power BI update into 4 clear, technical bullet points. Focus on new features and impact. Text: {text}"
-                      
-                      # Call the model
-                      response = model.generate_content(prompt)
-                      return response.text
-                  except Exception as e:
-                      if attempt == 2: return f"Summary unavailable: {str(e)}"
-                      time.sleep(5)
+              try:
+                  page = requests.get(url, headers=HEADERS, timeout=20)
+                  soup = BeautifulSoup(page.text, 'html.parser')
+                  content = soup.find('article') or soup.find('div', {'class': 'entry-content'}) or soup.body
+                  text = content.get_text(separator=' ', strip=True)[:5000]
+                  
+                  completion = client.chat.completions.create(
+                      model="llama-3.3-70b-versatile",
+                      messages=[{"role": "user", "content": f"Summarize this Power BI blog in 4 technical bullet points for a professional. Text: {text}"}]
+                  )
+                  return completion.choices[0].message.content
+              except Exception as e:
+                  return f"Summary skipped: {str(e)}"
 
-          # 2. Get the latest links
-          try:
-              feed = requests.get("https://powerbi.microsoft.com/en-us/blog/feed/", headers=HEADERS).text
-              links = [l.split('</link>')[0] for l in feed.split('<link>')[1:4]]
-          except:
-              links = []
+          # 2. Get latest 3 links
+          feed = requests.get("https://powerbi.microsoft.com/en-us/blog/feed/", headers=HEADERS).text
+          links = [l.split('</link>')[0] for l in feed.split('<link>')[1:4]]
 
-          # 3. Build the Section
+          # 3. Build Section
           new_section = f"\n## 🤖 AI Summary: {datetime.now().strftime('%Y-%m-%d')}\n"
-          if not links:
-              new_section += "No new links found today.\n"
-          else:
-              for url in links:
-                  summary_text = fetch_summary(url)
-                  new_section += f"### [Original Post]({url})\n{summary_text}\n\n---\n"
+          for url in links:
+              new_section += f"### [Link]({url})\n{fetch_summary(url)}\n\n---\n"
+              time.sleep(5) # Delay to be polite
 
-          # 4. Save and Keep History
+          # 4. Save to File
           filename = "AI_SUMMARIES.md"
-          existing_content = ""
-          if os.path.exists(filename):
-              with open(filename, "r") as f:
-                  existing_content = f.read().replace("# Power BI AI Insight Lab", "")
-          
+          existing = open(filename, "r").read() if os.path.exists(filename) else ""
           with open(filename, "w") as f:
-              f.write("# Power BI AI Insight Lab\n" + new_section + existing_content)
+              f.write("# Power BI AI Insight Lab\n" + new_section + existing.replace("# Power BI AI Insight Lab", ""))
           EOF
 
       - name: Save to GitHub
@@ -89,5 +72,5 @@ jobs:
           git config user.name "AI Assistant"
           git config user.email "ai@github.com"
           git add AI_SUMMARIES.md
-          git commit -m "AI Insights Fixed: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m "Groq AI Summary Generated" || exit 0
           git push
