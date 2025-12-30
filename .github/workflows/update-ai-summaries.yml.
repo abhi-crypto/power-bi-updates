@@ -1,0 +1,71 @@
+name: AI Power BI Summarizer
+on:
+  schedule:
+    - cron: '45 0 * * *' # Runs 15 mins after the link sync
+  workflow_dispatch:
+
+jobs:
+  ai-summarize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Tools
+        run: pip install google-generativeai requests beautifulsoup4
+
+      - name: AI Processing
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<EOF
+          import os, requests, google.generativeai as genai
+          from bs4 import BeautifulSoup
+          from datetime import datetime
+
+          genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+          model = genai.GenerativeModel('gemini-1.5-flash')
+
+          def fetch_summary(url):
+              try:
+                  page = requests.get(url, timeout=15)
+                  soup = BeautifulSoup(page.text, 'html.parser')
+                  # Scrape main text
+                  content = soup.find('div', {'class': 'entry-content'}) or soup.find('article') or soup.body
+                  text = content.get_text()[:5000]
+                  prompt = f"Summarize this Power BI update in 4 distinct, technical bullet points. Focus on 'What is it?' and 'How do I use it?'. Text: {text}"
+                  return model.generate_content(prompt).text
+              except: return "Summary failed for this link."
+
+          feed = requests.get("https://powerbi.microsoft.com/en-us/blog/feed/").text
+          links = [l.split('</link>')[0] for l in feed.split('<link>')[1:4]]
+          
+          header = f"\n## 🤖 AI Summary: {datetime.now().strftime('%Y-%m-%d')}\n"
+          body = ""
+          for url in links:
+              body += f"### [Original Post]({url})\n{fetch_summary(url)}\n\n---\n"
+
+          # Append to AI_SUMMARIES.md instead of README
+          filename = "AI_SUMMARIES.md"
+          existing = ""
+          if os.path.exists(filename):
+              with open(filename, "r") as f: existing = f.read()
+          
+          with open(filename, "w") as f:
+              f.write("# Power BI AI Insight Lab\n" + header + body + existing.replace("# Power BI AI Insight Lab", ""))
+          EOF
+
+      - name: Save to GitHub
+        run: |
+          git config user.name "AI Assistant"
+          git config user.email "ai@github.com"
+          git add AI_SUMMARIES.md
+          git commit -m "AI Insights Generated" || exit 0
+          git push
