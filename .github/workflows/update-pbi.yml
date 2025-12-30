@@ -1,7 +1,7 @@
-name: Power BI Quick Link Sync
+name: Power BI Quick Link Sync (v3)
 on:
   schedule:
-    - cron: '15 0 * * *' # Runs every day at 12:15 AM UTC
+    - cron: '15 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -18,58 +18,62 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4 lxml
+
       - name: Fetch and Append Links
         run: |
           python - <<EOF
           import requests
           import os
+          from bs4 import BeautifulSoup
           from datetime import datetime
 
-          # 1. Configuration
+          # 1. Config
           HEADERS = {'User-Agent': 'Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
           URL = "https://powerbi.microsoft.com/en-us/blog/feed/"
           FILENAME = "README.md"
 
-          def get_clean_links():
+          def get_links():
               try:
                   res = requests.get(URL, headers=HEADERS, timeout=20)
-                  res.raise_for_status()
-                  # Split feed into items and extract links correctly
-                  raw_items = res.text.split('<item>')[1:6] # Get latest 5
-                  found_links = []
-                  for item in raw_items:
-                      if '<link>' in item:
-                          link = item.split('<link>')[1].split('</link>')[0].strip()
-                          title = item.split('<title>')[1].split('</title>')[0].strip()
-                          if link and title:
-                              found_links.append(f"* [{title}]({link})")
-                  return found_links
+                  # Use 'xml' parser to accurately read the RSS tags
+                  soup = BeautifulSoup(res.text, 'xml')
+                  items = soup.find_all('item')[:5] # Get top 5 posts
+                  
+                  new_markdown_list = []
+                  for item in items:
+                      title = item.title.text.strip()
+                      # Microsoft feeds often put the link in <link> or <guid>
+                      link = item.link.text.strip()
+                      if title and link:
+                          new_markdown_list.append(f"* [{title}]({link})")
+                  return new_markdown_list
               except Exception as e:
                   print(f"Error: {e}")
                   return []
 
-          # 2. Process
-          new_links = get_clean_links()
-          current_date = datetime.now().strftime('%Y-%m-%d')
-          
-          if new_links:
-              # Create the new dated block
-              new_block = f"## 📅 Updates Pulled: {current_date}\n" + "\n".join(new_links) + "\n\n---\n"
+          # 2. Update File
+          new_posts = get_links()
+          if new_posts:
+              today = datetime.now().strftime('%Y-%m-%d')
+              new_content = f"## 📅 Updates Pulled: {today}\n" + "\n".join(new_posts) + "\n\n---\n"
               
-              # Read existing history
-              old_content = ""
+              # Read existing content
+              old_data = ""
               if os.path.exists(FILENAME):
                   with open(FILENAME, "r") as f:
-                      old_content = f.read().replace("# Power BI Link Archive", "").strip()
-
-              # Write back with new content at the top
+                      old_data = f.read().replace("# Power BI Link Archive", "").strip()
+              
+              # Prepend new content
               with open(FILENAME, "w") as f:
-                  f.write("# Power BI Link Archive\n\n" + new_block + "\n" + old_content)
+                  f.write("# Power BI Link Archive\n\n" + new_content + "\n" + old_data)
           EOF
 
       - name: Commit and Push
         run: |
-          git config user.name "Link Sync Bot"
+          git config user.name "Link Bot"
           git config user.email "bot@github.com"
           git add README.md
-          git commit -m "Updated README links: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m "Fixed Link Sync: $(date +'%Y-%m-%d')" || exit 0
+          git push
