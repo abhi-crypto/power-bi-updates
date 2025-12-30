@@ -1,11 +1,11 @@
-name: Update Power BI News
+name: Power BI Quick Link Sync
 on:
   schedule:
-    - cron: '30 0 * * *'
+    - cron: '15 0 * * *' # Runs every day at 12:15 AM UTC
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-links:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -13,34 +13,63 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch and Categorize Updates
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Fetch and Append Links
         run: |
-          # 1. Get the current date in a nice format for your tablet
-          CURRENT_DATE=$(date +'%Y-%m-%d')
+          python - <<EOF
+          import requests
+          import os
+          from datetime import datetime
+
+          # 1. Configuration
+          HEADERS = {'User-Agent': 'Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+          URL = "https://powerbi.microsoft.com/en-us/blog/feed/"
+          FILENAME = "README.md"
+
+          def get_clean_links():
+              try:
+                  res = requests.get(URL, headers=HEADERS, timeout=20)
+                  res.raise_for_status()
+                  # Split feed into items and extract links correctly
+                  raw_items = res.text.split('<item>')[1:6] # Get latest 5
+                  found_links = []
+                  for item in raw_items:
+                      if '<link>' in item:
+                          link = item.split('<link>')[1].split('</link>')[0].strip()
+                          title = item.split('<title>')[1].split('</title>')[0].strip()
+                          if link and title:
+                              found_links.append(f"* [{title}]({link})")
+                  return found_links
+              except Exception as e:
+                  print(f"Error: {e}")
+                  return []
+
+          # 2. Process
+          new_links = get_clean_links()
+          current_date = datetime.now().strftime('%Y-%m-%d')
           
-          # 2. Get the latest feed items
-          curl -s https://powerbi.microsoft.com/en-us/blog/feed/ | grep -oP '(?<=<title>).*?(?=</title>)|(?<=<link>).*?(?=</link>)' | sed 'N;s/\(.*\)\n\(.*\)/- [\1](\2)/' > latest_temp.txt
-          
-          # 3. Create a temporary file to build the new view
-          echo "## Updates Pulled on: $CURRENT_DATE" > new_section.md
-          cat latest_temp.txt >> new_section.md
-          echo -e "\n---\n" >> new_section.md
-          
-          # 4. Check if we already have a README. If so, put NEW stuff at the top of OLD stuff
-          if [ -f README.md ]; then
-            # Keep the main title at the top, then new updates, then old updates
-            grep -v "# Power BI Feature Archive" README.md > old_content.txt
-            echo "# Power BI Feature Archive" > README.md
-            cat new_section.md old_content.txt >> README.md
-          else
-            echo "# Power BI Feature Archive" > README.md
-            cat new_section.md >> README.md
-          fi
+          if new_links:
+              # Create the new dated block
+              new_block = f"## 📅 Updates Pulled: {current_date}\n" + "\n".join(new_links) + "\n\n---\n"
+              
+              # Read existing history
+              old_content = ""
+              if os.path.exists(FILENAME):
+                  with open(FILENAME, "r") as f:
+                      old_content = f.read().replace("# Power BI Link Archive", "").strip()
+
+              # Write back with new content at the top
+              with open(FILENAME, "w") as f:
+                  f.write("# Power BI Link Archive\n\n" + new_block + "\n" + old_content)
+          EOF
 
       - name: Commit and Push
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "Link Sync Bot"
+          git config user.email "bot@github.com"
           git add README.md
-          git commit -m "Systematic update for $(date +'%Y-%m-%d')" || exit 0
-          git push
+          git commit -m "Updated README links: $(date +'%Y-%m-%d')" || exit 0
