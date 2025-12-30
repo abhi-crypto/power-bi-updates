@@ -1,7 +1,7 @@
 name: Update Power BI News
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,17 +13,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch RSS and Create File
+      - name: Fetch and Categorize Updates
         run: |
-          echo "# Latest Power BI Features" > README.md
-          echo "Last updated: $(date)" >> README.md
-          echo "" >> README.md
-          curl -s https://powerbi.microsoft.com/en-us/blog/feed/ | grep -oP '(?<=<title>).*?(?=</title>)|(?<=<link>).*?(?=</link>)' | sed 'N;s/\(.*\)\n\(.*\)/- [\1](\2)/' | head -n 20 >> README.md
+          # 1. Get the current date in a nice format for your tablet
+          CURRENT_DATE=$(date +'%Y-%m-%d')
+          
+          # 2. Get the latest feed items
+          curl -s https://powerbi.microsoft.com/en-us/blog/feed/ | grep -oP '(?<=<title>).*?(?=</title>)|(?<=<link>).*?(?=</link>)' | sed 'N;s/\(.*\)\n\(.*\)/- [\1](\2)/' > latest_temp.txt
+          
+          # 3. Create a temporary file to build the new view
+          echo "## Updates Pulled on: $CURRENT_DATE" > new_section.md
+          cat latest_temp.txt >> new_section.md
+          echo -e "\n---\n" >> new_section.md
+          
+          # 4. Check if we already have a README. If so, put NEW stuff at the top of OLD stuff
+          if [ -f README.md ]; then
+            # Keep the main title at the top, then new updates, then old updates
+            grep -v "# Power BI Feature Archive" README.md > old_content.txt
+            echo "# Power BI Feature Archive" > README.md
+            cat new_section.md old_content.txt >> README.md
+          else
+            echo "# Power BI Feature Archive" > README.md
+            cat new_section.md >> README.md
+          fi
 
       - name: Commit and Push
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add README.md
-          git commit -m "Update PBI news" || exit 0
+          git commit -m "Systematic update for $(date +'%Y-%m-%d')" || exit 0
           git push
