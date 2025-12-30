@@ -1,11 +1,11 @@
-name: Power BI Link Sync (Absolute Fix)
+name: Power BI Sync (README + Excel)
 on:
   schedule:
     - cron: '15 0 * * *'
   workflow_dispatch:
 
 jobs:
-  update-links:
+  sync-all:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -19,13 +19,14 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml pandas
 
-      - name: Fetch and Fix Links
+      - name: Update README and Excel
         run: |
           python - <<EOF
           import requests
           import os
+          import pandas as pd
           from bs4 import BeautifulSoup
           from datetime import datetime
           from urllib.parse import urljoin
@@ -33,57 +34,68 @@ jobs:
           HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
           BASE_URL = "https://powerbi.microsoft.com"
           FEED_URL = "https://powerbi.microsoft.com/en-us/blog/feed/"
-          FILENAME = "README.md"
+          README_FILE = "README.md"
+          EXCEL_FILE = "powerbi_updates.csv"
 
-          def get_valid_links():
+          def get_valid_posts():
               try:
                   res = requests.get(FEED_URL, headers=HEADERS, timeout=20)
                   soup = BeautifulSoup(res.text, 'xml')
                   items = soup.find_all('item')[:5]
                   
-                  valid_markdown_list = []
+                  valid_data = []
                   for item in items:
                       title = item.title.text.strip()
                       link = item.link.text.strip()
-                      
-                      # 1. Ensure Absolute URL
-                      # If link starts with '/', this joins it to the BASE_URL
                       full_url = urljoin(BASE_URL, link)
                       
-                      # 2. Strict Validation Check
                       try:
                           check = requests.get(full_url, headers=HEADERS, timeout=10)
                           if check.status_code == 200:
-                              valid_markdown_list.append(f"* [{title}]({full_url})")
-                          else:
-                              print(f"Skipping {full_url} - Status: {check.status_code}")
+                              valid_data.append({'Date': datetime.now().strftime('%Y-%m-%d'), 'Title': title, 'URL': full_url})
                       except:
                           continue
-                          
-                  return valid_markdown_list
+                  return valid_data
               except Exception as e:
                   print(f"Error: {e}")
                   return []
 
-          new_posts = get_valid_links()
+          new_posts = get_valid_posts()
+
           if new_posts:
+              # --- 1. UPDATE EXCEL (CSV) ---
+              new_df = pd.DataFrame(new_posts)
+              if os.path.exists(EXCEL_FILE):
+                  old_df = pd.read_csv(EXCEL_FILE)
+                  # Merge and remove duplicates based on the Link
+                  final_df = pd.concat([new_df, old_df]).drop_duplicates(subset=['URL'], keep='first')
+              else:
+                  final_df = new_df
+              final_df.to_csv(EXCEL_FILE, index=False)
+
+              # --- 2. UPDATE README ---
               today = datetime.now().strftime('%Y-%m-%d')
-              header = "# Power BI Link Archive\n\n"
-              new_content = f"## 📅 Updates Pulled: {today}\n" + "\n".join(new_posts) + "\n\n---\n"
+              links_md = "\n".join([f"* [{p['Title']}]({p['URL']})" for p in new_posts])
+              new_section = f"## 📅 Updates Pulled: {today}\n{links_md}\n\n---\n"
               
-              old_data = ""
-              if os.path.exists(FILENAME):
-                  with open(FILENAME, "r") as f:
-                      old_data = f.read().replace("# Power BI Link Archive", "").strip()
-              
-              with open(FILENAME, "w") as f:
-                  f.write(header + new_content + "\n" + old_data)
+              old_readme = ""
+              if os.path.exists(README_FILE):
+                  with open(README_FILE, "r") as f:
+                      # Clean out old relative/broken links while reading
+                      for line in f:
+                          if "# Power BI" in line: continue
+                          if "](/" in line: continue 
+                          old_readme += line
+
+              with open(README_FILE, "w") as f:
+                  f.write("# Power BI Link Archive\n\n" + new_section + "\n" + old_readme.strip())
           EOF
 
       - name: Commit and Push
         run: |
-          git config user.name "Link Fixer Bot"
+          git config user.name "Data Sync Bot"
           git config user.email "bot@github.com"
-          git add README.md
-          git commit -m "Fixed Relative Links: $(date +'%Y-%m-%d')" || exit 0
+          git add README.md powerbi_updates.csv
+          git commit -m "Sync: README + Excel Update $(date +'%Y-%m-%d')" || exit 0
           git push
+
