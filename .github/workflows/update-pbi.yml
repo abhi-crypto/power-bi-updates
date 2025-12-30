@@ -1,4 +1,4 @@
-name: Power BI Quick Link Sync (v3)
+name: Power BI Link Sync (Validated)
 on:
   schedule:
     - cron: '15 0 * * *'
@@ -21,7 +21,7 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Fetch and Append Links
+      - name: Fetch and Validate Links
         run: |
           python - <<EOF
           import requests
@@ -29,51 +29,60 @@ jobs:
           from bs4 import BeautifulSoup
           from datetime import datetime
 
-          # 1. Config
           HEADERS = {'User-Agent': 'Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
           URL = "https://powerbi.microsoft.com/en-us/blog/feed/"
           FILENAME = "README.md"
 
-          def get_links():
+          def is_link_working(url):
+              try:
+                  # This pings the link to see if it actually exists (Status 200)
+                  # allow_redirects=True handles links that move to a new URL
+                  response = requests.head(url, headers=HEADERS, timeout=10, allow_redirects=True)
+                  return response.status_code == 200
+              except:
+                  return False
+
+          def get_valid_links():
               try:
                   res = requests.get(URL, headers=HEADERS, timeout=20)
-                  # Use 'xml' parser to accurately read the RSS tags
                   soup = BeautifulSoup(res.text, 'xml')
-                  items = soup.find_all('item')[:5] # Get top 5 posts
+                  items = soup.find_all('item')[:5]
                   
-                  new_markdown_list = []
+                  valid_markdown_list = []
                   for item in items:
                       title = item.title.text.strip()
-                      # Microsoft feeds often put the link in <link> or <guid>
                       link = item.link.text.strip()
-                      if title and link:
-                          new_markdown_list.append(f"* [{title}]({link})")
-                  return new_markdown_list
+                      
+                      # THE FIX: Only add the link if it passes the "is_link_working" test
+                      if title and link and is_link_working(link):
+                          valid_markdown_list.append(f"* [{title}]({link})")
+                      else:
+                          print(f"Skipping broken or invalid link: {link}")
+                          
+                  return valid_markdown_list
               except Exception as e:
-                  print(f"Error: {e}")
+                  print(f"Error fetching feed: {e}")
                   return []
 
-          # 2. Update File
-          new_posts = get_links()
+          # Update File Logic
+          new_posts = get_valid_links()
           if new_posts:
               today = datetime.now().strftime('%Y-%m-%d')
               new_content = f"## 📅 Updates Pulled: {today}\n" + "\n".join(new_posts) + "\n\n---\n"
               
-              # Read existing content
               old_data = ""
               if os.path.exists(FILENAME):
                   with open(FILENAME, "r") as f:
                       old_data = f.read().replace("# Power BI Link Archive", "").strip()
               
-              # Prepend new content
               with open(FILENAME, "w") as f:
                   f.write("# Power BI Link Archive\n\n" + new_content + "\n" + old_data)
           EOF
 
       - name: Commit and Push
         run: |
-          git config user.name "Link Bot"
+          git config user.name "Link Validator Bot"
           git config user.email "bot@github.com"
           git add README.md
-          git commit -m "Fixed Link Sync: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m "Updated Validated Links: $(date +'%Y-%m-%d')" || exit 0
           git push
