@@ -1,4 +1,4 @@
-name: Power BI Link Sync (Validated)
+name: Power BI Link Sync (Absolute Fix)
 on:
   schedule:
     - cron: '15 0 * * *'
@@ -21,30 +21,23 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Fetch and Validate Links
+      - name: Fetch and Fix Links
         run: |
           python - <<EOF
           import requests
           import os
           from bs4 import BeautifulSoup
           from datetime import datetime
+          from urllib.parse import urljoin
 
-          HEADERS = {'User-Agent': 'Mozilla/5.0 (Linux; Android 14; SM-X910) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
-          URL = "https://powerbi.microsoft.com/en-us/blog/feed/"
+          HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+          BASE_URL = "https://powerbi.microsoft.com"
+          FEED_URL = "https://powerbi.microsoft.com/en-us/blog/feed/"
           FILENAME = "README.md"
-
-          def is_link_working(url):
-              try:
-                  # This pings the link to see if it actually exists (Status 200)
-                  # allow_redirects=True handles links that move to a new URL
-                  response = requests.head(url, headers=HEADERS, timeout=10, allow_redirects=True)
-                  return response.status_code == 200
-              except:
-                  return False
 
           def get_valid_links():
               try:
-                  res = requests.get(URL, headers=HEADERS, timeout=20)
+                  res = requests.get(FEED_URL, headers=HEADERS, timeout=20)
                   soup = BeautifulSoup(res.text, 'xml')
                   items = soup.find_all('item')[:5]
                   
@@ -53,21 +46,29 @@ jobs:
                       title = item.title.text.strip()
                       link = item.link.text.strip()
                       
-                      # THE FIX: Only add the link if it passes the "is_link_working" test
-                      if title and link and is_link_working(link):
-                          valid_markdown_list.append(f"* [{title}]({link})")
-                      else:
-                          print(f"Skipping broken or invalid link: {link}")
+                      # 1. Ensure Absolute URL
+                      # If link starts with '/', this joins it to the BASE_URL
+                      full_url = urljoin(BASE_URL, link)
+                      
+                      # 2. Strict Validation Check
+                      try:
+                          check = requests.get(full_url, headers=HEADERS, timeout=10)
+                          if check.status_code == 200:
+                              valid_markdown_list.append(f"* [{title}]({full_url})")
+                          else:
+                              print(f"Skipping {full_url} - Status: {check.status_code}")
+                      except:
+                          continue
                           
                   return valid_markdown_list
               except Exception as e:
-                  print(f"Error fetching feed: {e}")
+                  print(f"Error: {e}")
                   return []
 
-          # Update File Logic
           new_posts = get_valid_links()
           if new_posts:
               today = datetime.now().strftime('%Y-%m-%d')
+              header = "# Power BI Link Archive\n\n"
               new_content = f"## 📅 Updates Pulled: {today}\n" + "\n".join(new_posts) + "\n\n---\n"
               
               old_data = ""
@@ -76,13 +77,13 @@ jobs:
                       old_data = f.read().replace("# Power BI Link Archive", "").strip()
               
               with open(FILENAME, "w") as f:
-                  f.write("# Power BI Link Archive\n\n" + new_content + "\n" + old_data)
+                  f.write(header + new_content + "\n" + old_data)
           EOF
 
       - name: Commit and Push
         run: |
-          git config user.name "Link Validator Bot"
+          git config user.name "Link Fixer Bot"
           git config user.email "bot@github.com"
           git add README.md
-          git commit -m "Updated Validated Links: $(date +'%Y-%m-%d')" || exit 0
+          git commit -m "Fixed Relative Links: $(date +'%Y-%m-%d')" || exit 0
           git push
