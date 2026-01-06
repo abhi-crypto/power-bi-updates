@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-01-06
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft Power BI celebrated its 10-year anniversary in 2025, marking a decade of innovation and impact in the business intelligence and data analytics space.
+* The year 2025 saw significant product advancements in Power BI, with the introduction of new features and capabilities that enable users to turn data into actionable insights more quickly and efficiently.
+* Power BI's 2025 updates delivered enhanced functionality, including improved data visualization, reporting, and business analytics tools, allowing users to make data-driven decisions with greater speed and accuracy.
+* The Power BI community played a major role in the platform's 10-year milestone, with global contests, community celebrations, and user engagement activities that helped drive product development and innovation, ensuring Power BI remains a leading solution for business intelligence and data analytics.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/)
+Here are 4 technical bullet points summarizing the Power BI 2025 holiday recap for a professional:
+
+* **Desktop and web data modeling parity**: Power BI now allows users to create and edit semantic models directly in the Power BI service, establishing core data modeling parity between Power BI Desktop and Power BI service, and enabling end-to-end solution development entirely through a web browser.
+* **Write Back Within Reports**: The introduction of translytical task flows (Preview) in Power BI enables users to trigger actions and write back data to underlying sources directly within reports, streamlining the process of turning insights into action.
+* **Power BI semantic model version history**: Changes to semantic models are now automatically saved and supported by version history within the Power BI service, allowing creators to track and manage changes to their data models.
+* **Cloud-based development**: With the establishment of data modeling parity and the introduction of features like write back within reports, Power BI now supports cloud-based development, enabling creators to handle the full workflow, from data ingestion and transformation to modeling and report generation, entirely through a web browser, without needing to transition development between the desktop and cloud.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Power BI has removed the limitation on using drillthrough (via Excel's Show Details feature) for Direct Lake and DirectQuery semantic models, previously only supported for Import models.
+* The MDX DRILLTHROUGH statement is now supported for Direct Lake and DirectQuery models, allowing users to retrieve underlying detail rows by double-clicking a PivotTable cell, even when connected live to these models.
+* Drillthrough in Direct Lake and DirectQuery models respects all applied filters and security roles, including RLS/OLS security configurations, ensuring a consistent and secure drillthrough experience across Import, Direct Lake, and DirectQuery models.
+* To leverage the new drillthrough capability, users can simply connect to their semantic model using Analyze in Excel, ensure explicit measures or fields support detail rows, and double-click a leaf-level cell in the PivotTable to view the underlying data, with performance dependent on the underlying source system and query complexity.
+
+---
+
+
 ## 🤖 AI Summary: 2026-01-05
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
