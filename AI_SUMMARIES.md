@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-01-07
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* Microsoft Power BI celebrated its 10-year anniversary in 2025, marking a decade of innovation and growth in the business intelligence and data analytics space.
+* The year 2025 saw significant product advancements in Power BI, including the release of new features and capabilities that enable users to transform data into actionable insights more efficiently.
+* Community engagement and celebrations were a major focus in 2025, with global contests, events, and milestones that recognized user achievements and showcased the impact of Power BI on organizations worldwide.
+* The cumulative effect of these developments has been to accelerate the ability of Power BI users to turn data into action, driving faster and more informed decision-making across industries and use cases, and further establishing Power BI as a leading platform for business intelligence and data analytics.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/)
+Here are four technical bullet points summarizing the Power BI 2025 holiday recap:
+
+* **Desktop and web data modeling parity**: Power BI achieved core data modeling parity between Power BI Desktop and Power BI service, allowing users to create and edit semantic models directly in the Power BI service, and supporting end-to-end solutions entirely through a web browser.
+* **Write Back Within Reports**: The introduction of translytical task flows (Preview) in Power BI enables users to trigger actions and write back data directly within reports, streamlining the workflow and making Power BI more actionable.
+* **Microsoft Fabric integration**: Power BI's integration with Microsoft Fabric empowers users with a unified experience for data and AI-driven innovation, allowing creators to leverage the full power of the platform and transform business intelligence at scale.
+* **Semantic model version history**: The Power BI service now supports semantic model version history, automatically saving changes and allowing users to track and manage different versions of their models, enhancing collaboration and data governance capabilities.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Power BI has removed the limitation that prevented drillthrough (using Excel's Show Details feature) on Direct Lake and DirectQuery semantic models, now supporting MDX DRILLTHROUGH statements for these models.
+* The updated drillthrough feature allows users to double-click a PivotTable cell and retrieve the underlying detail rows, even when connected live to Direct Lake and DirectQuery models, providing a consistent experience across Import, Direct Lake, and DirectQuery models.
+* Drillthrough in Direct Lake and DirectQuery models respects all applied filters and security roles, including Row-Level Security (RLS) and Object-Level Security (OLS) configurations, ensuring secure and controlled access to data.
+* To use the drillthrough feature, users can connect to their semantic model using Analyze in Excel, ensure they are using explicit measures or fields that support detail rows, and double-click a leaf-level cell in their PivotTable to view the underlying data, with performance depending on the underlying source system and query complexity.
+
+---
+
+
 ## 🤖 AI Summary: 2026-01-06
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are four technical bullet points summarizing the Power BI blog for a professional:
