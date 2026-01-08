@@ -1,5 +1,20 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-01-08
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Summary skipped: HTTPSConnectionPool(host='powerbi.microsoft.com', port=443): Read timed out. (read timeout=20)
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/)
+Summary skipped: HTTPSConnectionPool(host='powerbi.microsoft.com', port=443): Read timed out. (read timeout=20)
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/)
+Summary skipped: HTTPSConnectionPool(host='powerbi.microsoft.com', port=443): Read timed out. (read timeout=20)
+
+---
+
+
 ## 🤖 AI Summary: 2026-01-07
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are four technical bullet points summarizing the Power BI blog post for a professional:
