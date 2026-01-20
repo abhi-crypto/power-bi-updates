@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-01-20
+* [The Power BI Dataviz World Champs is back!](https://powerbi.microsoft.com/en-us/blog/the-power-bi-dataviz-world-champs-is-back/)
+* [Power BI 2025 holiday recap: A decade of innovation and impact](https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/)
+* [Drillthrough in Excel now supported for Direct Lake and DirectQuery Models](https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/)
+* [Deprecating Power BI Q&amp;A](https://powerbi.microsoft.com/en-us/blog/deprecating-power-bi-qa/)
+* [Image Visual Enhancements for Report Creators](https://powerbi.microsoft.com/en-us/blog/image-visual-enhancements-for-report-creators/)
+
+---
+
 ## 📅 Updates Pulled: 2026-01-19
 * [The Power BI Dataviz World Champs is back!](https://powerbi.microsoft.com/en-us/blog/the-power-bi-dataviz-world-champs-is-back/)
 * [Power BI 2025 holiday recap: A decade of innovation and impact](https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/)
