@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-01-21
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The January 2026 Power BI Desktop release has begun rolling out, with updates expected to be gradually reflected in the desktop application.
+* Due to the phased rollout, not all features and updates may be immediately available, requiring a brief waiting period for full accessibility.
+* The January 2026 Power BI Feature Summary includes a range of new updates, announcements, and enhancements aimed at improving the overall Power BI experience.
+* As the updates become available, users can expect to see new features and functionality in the Power BI Desktop application, which may require exploration and familiarization to fully leverage the new capabilities.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
+Here are four technical bullet points summarizing the new Markers feature in Azure Maps for Power BI:
+
+* The Azure Maps Visual for Power BI now supports **Markers**, allowing users to represent data points as meaningful icons or custom images, which can be scaled dynamically based on metrics such as shipment volume or sales performance.
+* **Customization options** for Markers include assigning distinct icons per category, adjusting colors and transparency, and rotating icons to reflect direction or orientation, making reports more visually informative and easier to interpret.
+* Markers can be used in conjunction with **Path and Reference Layers** to create multi-layered map visuals, showing routes, boundaries, and points together, and requiring pre-computed route and heading data to achieve richer visualizations.
+* To implement Markers, users can add the Azure Maps visual to their report, select the Icon marker type, and adjust settings such as size, rotation, and conditional formatting, using sample data tables with Latitude, Longitude, Path ID, and pre-computed angle columns to visualize delivery routes and other location-based data.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI January 2026 Feature Summary for a professional:
+
+* **Deprecation and Discontinuation**: Power BI Q&A will be deprecated in December 2026, and users are recommended to use Power BI Copilot instead. Additionally, support for SQL Server Reporting Services Report Viewer Web Part will end on April 13, 2026, with no future updates planned.
+* **Enhanced Reporting and Visualization**: The January release introduces new reporting tools, smarter data modeling options, and enhanced visualizations, including the introduction of Markers in Azure Maps Visual and the general availability of Modern Visual Tooltips.
+* **AI and Copilot Advancements**: Power BI has introduced several AI and Copilot-related features, including the ability to attach a report or semantic model to Copilot chat as a reference point, and the introduction of standalone Copilot access on the Power BI home page.
+* **Integration and Accessibility**: The Power BI application is now accessible within Teams on Microsoft 365 Operated by 21Vianet, allowing users to view Power BI content and pin items to chats or channels using Tabs. However, some features such as Power BI notifications and preview cards are not supported in this environment.
+
+---
+
+
 ## 🤖 AI Summary: 2026-01-20
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
