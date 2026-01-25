@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-01-25
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog:
+
+* The January 2026 Power BI Desktop release has begun rolling out, with updates expected to be available in the desktop application over time.
+* The release includes various new features and enhancements, although the exact details of these updates are not specified in the provided text.
+* Users may experience a delay in accessing all updates, as the roll-out is staggered and may take time to complete.
+* The January 2026 Power BI Feature Summary provides a comprehensive overview of the latest updates, announcements, and changes to the Power BI platform, although the specifics are not outlined in the given text.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI Report Server January 2026 feature summary:
+
+* The January 2026 release includes new and updated visuals from Microsoft partners and the community, such as the Activity Gauge, Decomposition Tree, and Sankey Chart, which enable richer storytelling and advanced exploration in reports.
+* The release also introduces new features to improve report layout and visualization, including automatically expanding matrix and table columns to fill available space, and enhancements to image visuals with styling and states.
+* Several new and updated custom visuals are available, including Drill Down Bubble PRO, Power Gantt Chart, and Word Cloud, which can be used to create more engaging and interactive report experiences.
+* The release includes various reporting enhancements, such as the general availability of the card visual and button slicer, and the introduction of a performance analyzer when editing a report in the web, to help users build polished and intuitive reports.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
+Here are 4 technical bullet points summarizing the introduction of Markers in Azure Maps for Power BI:
+
+* The Azure Maps Visual for Power BI now includes a Markers feature, allowing users to create custom map visuals with meaningful icons or images, dynamic scaling, and customizable colors and transparency to represent various data points such as deliveries, facilities, or assets.
+* Markers can be used in conjunction with Path and Reference Layers to create multi-layered map visuals, enabling the display of routes, boundaries, and points together for more detailed and informative map visuals.
+* To utilize the Markers feature, users can pre-compute route and heading data, then apply it to the markers to achieve richer, multi-layered map visuals, such as visualizing delivery routes with rotated icons to indicate direction.
+* The Markers feature can be configured using the Format pane in Power BI, where users can select icon types, adjust sizes, and apply conditional formatting, including rotation settings, to create customized and informative map visuals that support various use cases, such as logistics, utilities, and retail applications.
+
+---
+
+
 ## 🤖 AI Summary: 2026-01-24
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
