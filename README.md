@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-01-26
+* [Power BI Report Server January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
+* [Introducing Markers in Azure Maps for Power BI](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
+* [Power BI January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/)
+* [The Power BI Dataviz World Champs is back!](https://powerbi.microsoft.com/en-us/blog/the-power-bi-dataviz-world-champs-is-back/)
+* [Power BI 2025 holiday recap: A decade of innovation and impact](https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/)
+
+---
+
 ## 📅 Updates Pulled: 2026-01-25
 * [Power BI Report Server January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
 * [Introducing Markers in Azure Maps for Power BI](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
