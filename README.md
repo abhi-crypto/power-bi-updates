@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-01-27
+* [Modern Visual Tooltips in Power BI (Generally Available)](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
+* [Power BI Report Server January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
+* [Introducing Markers in Azure Maps for Power BI](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
+* [Power BI January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/)
+* [The Power BI Dataviz World Champs is back!](https://powerbi.microsoft.com/en-us/blog/the-power-bi-dataviz-world-champs-is-back/)
+
+---
+
 ## 📅 Updates Pulled: 2026-01-26
 * [Power BI Report Server January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
 * [Introducing Markers in Azure Maps for Power BI](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
