@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-01-31
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The January 2026 Power BI update introduces new reporting tools to enhance data visualization and analysis capabilities.
+* The update includes smarter data modeling options, enabling more efficient and effective data management and organization.
+* Enhanced resources for developers are now available, providing improved support for custom development and integration with Power BI.
+* The latest update also incorporates advancements in AI and Copilot, expanding the platform's capabilities for automated insights, machine learning, and natural language querying.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
+Here are four technical bullet points summarizing the Power BI blog on modern visual tooltips:
+
+* The latest Power BI update introduces modern visual tooltips with an Actions footer, allowing users to perform drill down, drill up, and drill through actions directly from the tooltip, streamlining data exploration and workflow.
+* Modern visual tooltips adopt the report's theme colors and can be customized further using the Format pane, enabling report authors to adjust colors, fonts, and transparency to match their brand or reporting needs.
+* The updated tooltips can be enabled or disabled in the Format pane, and customizing the report theme updates tooltips in all existing visuals, while modifying a visual individually only updates the style for that specific visual.
+* The update has no impact on existing reports, which will continue to use the old tooltip experience until the report author edits them to use the new styling and Actions footer, while all new reports will use the modern experience by default, including updated styling from the theme and the Actions footer enabled.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI Report Server January 2026 feature summary:
+
+* The January 2026 release includes new and updated visuals from Microsoft partners and the community, such as the Activity Gauge, Decomposition Tree, and Sankey Chart, which enable richer storytelling and more engaging report experiences.
+* The release also includes several reporting enhancements, including automatically expanding matrix and table columns to fill available space, as well as improvements to visual styling and interaction options, such as the Card visual and Button slicer.
+* New visualizations have been added, including the Drill Down Bubble PRO, Power Gantt Chart, and Word Cloud, which provide advanced exploration and analysis capabilities, while updated visuals, such as Zebra BI Charts and Tables, offer enhanced features like calculated reports and brand images.
+* The release also includes performance and usability enhancements, such as the Performance Analyzer, which is now available when editing a report in the web, and improved layout behavior, allowing users to build polished, intuitive, and modern reports with ease.
+
+---
+
+
 ## 🤖 AI Summary: 2026-01-30
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
