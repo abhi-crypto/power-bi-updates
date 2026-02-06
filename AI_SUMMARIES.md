@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-02-06
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The January 2026 Power BI update introduces new reporting tools, enabling users to create more comprehensive and dynamic reports.
+* Enhanced data modeling options are now available, allowing for smarter and more efficient data modeling capabilities.
+* The update includes new resources and enhancements for developers, providing a more robust and feature-rich environment for building custom solutions.
+* The latest release incorporates advancements in AI and Copilot, expanding the platform's capabilities for automated insights and intelligent decision-making, while also aligning with broader global standards and best practices.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/)
+Here are four technical bullet points summarizing the Power BI blog on composite semantic models with Direct Lake and import tables:
+
+* Composite semantic models now support mixing Direct Lake tables with import tables from various data sources, including those connected through Power Query online, allowing for greater flexibility in data modeling and analysis.
+* The updated composite models enable regular relationships between Direct Lake and import tables, improving report performance and overcoming limitations of traditional DirectQuery and import composite models, which only supported limited relationships.
+* Power BI provides multiple paths to create and edit composite semantic models, including web modeling, Power BI Desktop live editing, and Fabric Notebooks, with features such as version history snapshots, Semantic Link Labs, and TDML view to support iterative development and collaboration.
+* The new capabilities include the ability to convert tables between Direct Lake and import modes, add calculated columns and hierarchies, and perform data transformations using Power Query online, making it easier to prepare and analyze data, and creating a more seamless experience for data professionals working with composite semantic models.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on modern visual tooltips:
+
+* The modern visual tooltips feature is now generally available in Power BI, allowing users to interact with reports more easily through built-in actions footers and report theme-based styling and colors.
+* The Actions footer in modern tooltips enables users to perform drill down, drill up, and drill through actions directly from the tooltip, streamlining workflows and making data exploration more intuitive, and can be enabled or disabled through the Format pane.
+* Modern visual tooltips adopt the report's theme colors for a consistent look, and can be customized further through the Format pane or by modifying the report theme, allowing for adjustments to colors, fonts, and transparency to match brand or reporting needs.
+* The update to modern visual tooltips does not impact existing reports, which will retain their original tooltip experience until edited to use the new styling and actions footer, while new reports will use the modern experience by default, with updated styling and the Actions footer enabled.
+
+---
+
+
 ## 🤖 AI Summary: 2026-02-05
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI January 2026 Feature Summary for a professional:
