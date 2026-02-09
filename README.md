@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-02-09
+* [Deep dive into composite semantic models with Direct Lake and import tables](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/)
+* [Modern Visual Tooltips in Power BI (Generally Available)](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
+* [Power BI Report Server January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/)
+* [Introducing Markers in Azure Maps for Power BI](https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/)
+* [Power BI January 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/)
+
+---
+
 ## 📅 Updates Pulled: 2026-02-08
 * [Deep dive into composite semantic models with Direct Lake and import tables](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/)
 * [Modern Visual Tooltips in Power BI (Generally Available)](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
