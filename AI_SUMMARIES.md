@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-02-09
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* New reporting tools have been introduced in the January 2026 Power BI update, enhancing the capabilities for data visualization and insights.
+* Smarter data modeling options are now available, allowing for more efficient and effective data management and analysis.
+* The update includes enhanced resources for developers, providing improved support for custom applications and integrations within the Power BI ecosystem.
+* Advances in AI and Copilot technologies have been incorporated, enabling more intuitive and automated interactions with Power BI, and streamlining workflows for users.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/)
+Here are 4 technical bullet points summarizing the blog post on composite semantic models with Direct Lake and import tables in Power BI:
+
+* **Enhanced flexibility in composite models**: Composite semantic models can now mix Direct Lake tables with import tables, allowing for greater flexibility in data modeling and analysis, with support for regular relationships between Direct Lake and import tables.
+* **Seamless integration of import tables**: Import tables can be added to Direct Lake tables from any data source using Power Query online, and can also be converted from Direct Lake to import mode using the Convert a table in Direct Lake mode to import mode code example.
+* **Streamlined model creation and editing**: New options are available for creating and editing composite models with Direct Lake and import tables, including the ability to create a new semantic model from scratch using the OneLake catalog tile, and four new buttons in web modeling (Get data, OneLake catalog, Transform data, and Refresh) that simplify the process of adding and editing tables.
+* **Improved performance and functionality**: Composite models with Direct Lake and import tables support regular relationships, which maintain report performance, and offer additional features such as the ability to add calculated columns and tables, organize columns, and implement row-level security roles, making it easier to create and analyze complex data models.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on Modern Visual Tooltips:
+
+* **Streamlined Drill Actions**: The updated visual tooltips now include an Actions footer, allowing users to perform drill down, drill up, and drill through actions directly from the tooltip, enhancing data exploration and workflow efficiency.
+* **Theme-based Styling and Customization**: Modern visual tooltips adopt the report's theme colors for a consistent look and can be further customized using the Format pane, allowing report authors to match their brand or reporting needs.
+* **Seamless Integration with Existing Reports**: The update does not impact existing reports, which will retain their original tooltip experience until edited to use the new styling and actions footer, while new reports will use the modern experience by default.
+* **Customization and Control**: Report authors can enable or disable the Actions footer, customize tooltip colors, fonts, and transparency, and update the report theme to apply changes to all visuals, providing flexibility and control over the tooltip experience.
+
+---
+
+
 ## 🤖 AI Summary: 2026-02-08
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
