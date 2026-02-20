@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-02-20
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are four technical bullet points summarizing the Power BI January 2026 Feature Summary for a professional:
+
+* New reporting tools have been introduced to enhance data visualization and insight generation capabilities in Power BI.
+* Advances in AI and Copilot technologies have been incorporated to improve data modeling options, enabling more intelligent and automated data analysis processes.
+* Enhanced resources and support are now available for developers, facilitating the creation of custom solutions and integrations with Power BI.
+* Power BI has expanded its support for broader global standards, ensuring greater compatibility and interoperability with international data formats and systems.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/deprecation-of-old-excel-and-csv-import-experience-in-power-bi-service/)
+Here are 4 technical bullet points summarizing the deprecation of the old Excel and CSV import experience in Power BI Service:
+
+* The old Excel and CSV import experience in Power BI Service will be deprecated in phases, with the final removal of existing semantic models created with the legacy experience by August 31, 2026, after which they will no longer be available for querying.
+* Reports created using the old import Excel or CSV experience will stop refreshing from their source file as of July 31, 2026, and will no longer stay in sync with the source Excel file, although they can still be consumed and edited.
+* The new Excel and CSV connectors will remain available, and users who have created semantic models using these connectors will not be impacted, as evidenced by the ability to edit their models in the browser, download them, or schedule a refresh.
+* To maintain up-to-date reports, users with affected semantic models should recreate them using a supported import method, such as the current Excel and CSV connectors, following the guidance provided in the "Get data from Excel workbook files" documentation to ensure a seamless transition.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/)
+Here are four technical bullet points summarizing the Power BI blog on composite semantic models with Direct Lake and import tables:
+
+* Composite semantic models in Power BI now support mixing Direct Lake tables with import tables, allowing for greater flexibility in data modeling and analysis, with the ability to add import tables from any data source using Power Query online.
+* The update enables regular relationships between Direct Lake and import tables, improving report performance and overcoming the limitations of traditional DirectQuery and import composite models, which only supported limited relationships.
+* Power BI users can create and edit composite models with Direct Lake and import tables using the web modeling experience, with options to add tables, transform data, and refresh data, as well as live edit in Power BI Desktop, although with some limitations.
+* The new functionality includes features such as converting tables from Direct Lake to import mode, using Semantic Link Labs to make edits, and leveraging version history snapshots to track changes, making it easier to manage and analyze complex data models and perform tasks such as renaming tables, adding relationships, and creating measures.
+
+---
+
+
 ## 🤖 AI Summary: 2026-02-19
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
