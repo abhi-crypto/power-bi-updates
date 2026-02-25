@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-02-25
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI February 2026 Feature Summary blog:
+
+* The February 2026 Power BI update introduces enhanced Copilot and AI capabilities, enabling more intelligent and automated interactions with reports and data.
+* The update provides more flexible interaction options with reports, allowing users to engage with data in a more dynamic and customizable way.
+* Visualizations have been polished, with improvements aimed at enhancing the overall user experience and providing clearer insights into data.
+* The update also includes significant modeling enhancements, as well as important updates and fixes, to improve the overall performance and reliability of Power BI.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on the Input Slicer feature:
+
+* The Input Slicer visual allows users to type or paste values directly into a slicer to filter reports, eliminating the need to scroll or search through long lists, and supports filtering by multiple values, partial text, and exact matches.
+* The Input Slicer supports various filter operators, including "Contains all", "Contains any", "Does not contain any", "Starts with any", "Does not start with any", "Is any", and "Is not any", which can be selected by the report consumer and changed at any time.
+* The Input Slicer can be used to collect free-form input from users, such as comments, approval notes, or values for data writebacks, by using the visual without a data column, enabling translytical task flows and dynamic report interactions.
+* The Input Slicer can be configured to accept single or multiple values, with options to turn off "Accept multiple values" in the Slicer settings, and supports DAX expressions, such as the example provided to create sample data, making it a versatile and powerful tool for report filtering and data analysis.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI February 2026 Feature Summary for a professional:
+
+* **Deprecation of features**: The February update announces the deprecation of several features, including Hierarchies in Power BI scorecards (effective April 15, 2026), SSRS, PBIRS, and SSAS Management Packs in SCOM (no longer supported after January 2027), and the legacy Import Excel & CSV experience in Power BI Service.
+* **Enhanced Copilot and AI experiences**: The update introduces expanded prompt input character limits, a more conversational Copilot, and app summaries, allowing for more flexible interactions with reports and easier access to insights.
+* **Visual and modeling updates**: New features include updated card visuals, improved error dialogs, Azure Maps visual updates, and enhanced DAX functions (TABLEOF and NAMEOF), as well as new visualizations such as Drill Down Pie PRO and Rich titles in Zebra BI Charts.
+* **Improvements to reporting and filtering**: The update introduces new features like Input slicer (generally available), Persistent Report Filters and Reset Functionality in Org Apps (preview), and improved conditional formatting dialogs, making it easier to create and interact with reports and filter data.
+
+---
+
+
 ## 🤖 AI Summary: 2026-02-24
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI January 2026 Feature Summary for a professional:
