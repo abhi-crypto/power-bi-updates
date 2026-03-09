@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-09
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are four technical bullet points summarizing the Power BI February 2026 feature update for a professional:
+
+* The update introduces enhanced Copilot and AI capabilities, enabling more intelligent and automated interactions with Power BI reports and data models.
+* New features provide more flexibility in interacting with reports, allowing for more customized and dynamic user experiences.
+* Visualizations have been polished and improved, offering better data representation and visualization options for report creators and consumers.
+* The update also includes modeling enhancements, such as improved data modeling capabilities and refinements to the data modeling interface, to help users create more robust and scalable data models.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on the Input Slicer feature:
+
+* The Input Slicer visual allows users to type or paste values directly into a slicer to filter reports, eliminating the need to scroll through long lists or select items one by one from a dropdown, and supports partial text matching using "Contains" or "Starts with" operators.
+* The Input Slicer supports multiple filter values, allowing users to enter multiple values one at a time, pressing Enter after each to build a filter list, and also allows for free-form input without a data column to capture user input for translytical task flows.
+* The Input Slicer provides various filter operators, including "Contains all", "Contains any", "Does not contain any", "Starts with any", "Does not start with any", "Is any", and "Is not any", which can be selected by the report creator or changed by the report consumer at any time.
+* The Input Slicer can be configured to accept either single or multiple values, with the option to turn off "Accept multiple values" in the Slicer settings, and also supports DAX expressions to create sample data, such as the `DATATABLE` function, to test and demonstrate the feature's capabilities.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI February 2026 Feature Summary for a professional:
+
+* **Deprecation of features**: As of April 15, 2026, the Hierarchies feature in Power BI Scorecards will be removed, and the Heatmap view will be discontinued. Additionally, the SSRS, PBIRS, and SSAS Management Packs in SCOM will be deprecated by January 2027, and the legacy Import Excel & CSV experience in Power BI Service will also be deprecated.
+* **Enhanced Copilot and AI experiences**: The February update brings expanded prompt input character limits, improved conversational Copilot and app summaries, and new features such as Input slicer (generally available) and Paste selections into any report slicer, enabling more flexible and intuitive interactions with reports.
+* **Visual and modeling enhancements**: The update includes improved visuals such as Card visual updates, Font compatibility with non-Windows devices, and Azure Maps visual updates. Additionally, new DAX functions (TABLEOF and NAMEOF) and visualizations (Drill Down Pie PRO, Rich titles in Zebra BI Charts, and Rose Donut Pie Chart) are introduced to enhance data modeling and visualization capabilities.
+* **Power BI platform updates**: The February update includes new features such as Persistent Report Filters and Reset Functionality (Preview) in Org Apps, and a more conversational Copilot experience with fewer steps to insight in Power BI apps. The update also includes a new Power BI Desktop version (v:2.151.1052.0) and a default update to the Copilot capacity tenant setting.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-08
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI February 2026 feature summary for a professional:
