@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-03-10
+* [Input slicer: Filter reports and collect user input (Generally Available)](https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/)
+* [Power BI February 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/)
+* [Deprecation of old Excel and CSV import experience in Power BI Service](https://powerbi.microsoft.com/en-us/blog/deprecation-of-old-excel-and-csv-import-experience-in-power-bi-service/)
+* [Deep dive into composite semantic models with Direct Lake and import tables](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/)
+* [Modern Visual Tooltips in Power BI (Generally Available)](https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/)
+
+---
+
 ## 📅 Updates Pulled: 2026-03-09
 * [Input slicer: Filter reports and collect user input (Generally Available)](https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/)
 * [Power BI February 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/)
