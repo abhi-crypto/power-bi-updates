@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-16
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI February 2026 Feature Summary:
+
+* The February 2026 Power BI update introduces enhanced Copilot and AI capabilities, enabling more intelligent and automated interactions with reports and data.
+* New features allow for more flexible interactions with reports, including improved navigation and visualization options, to facilitate better data exploration and analysis.
+* Visualizations have been polished and refined, providing a more intuitive and engaging user experience, while also enhancing the overall presentation of data insights.
+* The update also includes modeling enhancements, such as improved data modeling and management capabilities, to support more complex and nuanced data analysis, along with other important updates to maintain optimal performance and functionality.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on the Input Slicer feature:
+
+* The Input Slicer visual allows users to type or paste values directly into a slicer to filter reports, eliminating the need for scrolling or searching through long lists, and supports features like partial text matching and multiple filter values.
+* The Input Slicer supports various filter operators, including "Contains all", "Contains any", "Does not contain any", "Starts with any", "Does not start with any", "Is any", and "Is not any", which can be configured by report creators and changed by consumers at any time.
+* The Input Slicer can be used to collect free-form input from users, allowing for translytical task flows such as capturing comments, approval notes, or values for data writebacks, without requiring a specific data column to be bound to the visual.
+* The Input Slicer can be configured to accept either single or multiple filter values, with options to control this behavior through the "Accept multiple values" setting in the Slicer settings, and can be used in a variety of scenarios, such as filtering by specific order IDs, customer names, or product codes.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI February 2026 Feature Summary:
+
+* **Deprecation of features**: The Hierarchies feature in Power BI Scorecards will be removed on April 15, 2026, and the Heatmap view will also be discontinued. Additionally, Microsoft has deprecated the System Center Operations Manager (SCOM) Management Packs for SQL Server Reporting Services (SSRS), Power BI Report Server (PBIRS), and SQL Server Analysis Services (SSAS), with support ending in January 2027.
+* **Copilot and AI enhancements**: The February update brings expanded prompt input character limits, a generally available Input slicer for filtering or entering data in reports, and a more conversational Copilot experience with app summaries. Org Apps now also feature Persistent Report Filters and Reset Functionality in preview.
+* **Visualization updates**: The update includes various visualization enhancements, such as card visual updates, fonts compatible with non-Windows devices, and improved error dialogs in Power BI Desktop. Additionally, there are updates to Azure Maps, Drill Down Pie PRO (Filter) by ZoomCharts, and Rich titles in Zebra BI Charts.
+* **Modeling and data updates**: The TABLEOF and NAMEOF DAX functions have been updated, and there are changes to column sizing in tables and matrices. The legacy Import Excel & CSV experience in Power BI Service is also being deprecated, although Excel and CSV files remain a valid data source for Power BI semantic models and reports.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-15
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are four technical bullet points summarizing the Power BI February 2026 feature summary:
