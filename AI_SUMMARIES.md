@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-19
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot capabilities**: The March 2026 update introduces improvements to Copilot, aiming to streamline everyday authoring tasks and enhance the overall user experience.
+* **Reporting and visualization updates**: This release includes enhancements to reporting and visualization features, focused on making it easier to create and customize interactive visuals and reports.
+* **Modeling improvements**: The update brings refinements to Power BI's modeling capabilities, enabling more efficient data modeling and analysis.
+* **Expanded data connectivity options**: The March 2026 feature summary also includes expanded data connectivity options, allowing users to connect to a broader range of data sources and integrate them seamlessly into their Power BI workflows.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Semantic Layer Enhancement**: Microsoft Fabric IQ extends Power BI's semantic layer, enabling a broader connected context that supports analytics and AI with fewer gaps and less guessing, by building on trusted Power BI definitions and capturing business meanings, relationships, and governance.
+* **Translytical Task Flows**: Power BI now allows users to act directly from reports with translytical task flows, enabling real-time updates to records, triggering workflows, or resolving data issues without leaving the analytics experience, and is now generally available.
+* **Direct Lake on OneLake**: Power BI has standardized open-data formats by adopting Delta Lake and Parquet, reducing vendor lock-in and data duplication, and Direct Lake storage mode is now generally available, providing compatibility with OneLake security, more modeling features, and faster query performance.
+* **TMDL View in the Web**: A code-first semantic modeling experience is being introduced in the browser with TMDL View, enabling developers to view, edit, and apply changes to semantic model metadata using Tabular Model Definition Language (TMDL), promoting greater transparency, efficiency, automation, and consistent model development, and is launching in preview soon.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-modern-visual-defaults-and-customizing-theme-improvements-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog on Modern Visual Defaults and Customizing Theme Improvements:
+
+* The Power BI Desktop visuals now have a modern look with an updated base theme aligned with Fluent 2, featuring subtitles, uniform padding, style presets, and a grey canvas background at 1920×1080 by default, allowing for polished reports without manual formatting.
+* The update introduces uniform visual styling across all visuals, with shared structural font style, colors, and sizes, and includes features such as axis titles turned off by default, titles and subtitles turned on, and rounded corners with increased padding and borders.
+* Many visuals now include built-in style presets, allowing for quick changes to appearance, such as chart presets that adjust axis and label visibility, table and matrix presets with refreshed modern styling, and button and navigator presets with Fluent 2 styling.
+* The update also introduces improvements to customizing and resetting themes, including the ability to reset individual sections in the formatting pane to default values, and targeted resetting that avoids resetting data-bound formatting or actions configured on the visual, providing more flexibility and control over report customization.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-18
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
