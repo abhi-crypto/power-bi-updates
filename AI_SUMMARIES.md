@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-24
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot capabilities**: The March update introduces new features and improvements to Copilot, aiming to streamline everyday authoring tasks and enhance the overall user experience.
+* **Reporting and visualization upgrades**: This month's update brings a range of enhancements to reporting and visualization features, including improved visuals and more intuitive authoring tools.
+* **Modeling and data management updates**: The March update includes improvements to data modeling and management, focusing on making it easier to work with complex data sets and build robust models.
+* **Expanded data connectivity options**: The latest update expands Power BI's data connectivity capabilities, providing users with more options for connecting to various data sources and integrating data from different platforms.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+Here are four technical bullet points summarizing the blog post for a professional:
+
+* **TMDL View on the Web** is a new Power BI feature that enables developers to view and edit semantic models as code directly in the browser using the Tabular Model Definition Language (TMDL), providing a code-first semantic modeling experience without requiring Power BI Desktop or model file downloads.
+* The feature includes a **rich code editor** with built-in IntelliSense, multiline editing, search and replace capabilities, and support for AI-powered tools like GitHub Copilot, allowing for enhanced development efficiency and streamlined modeling workflows.
+* **Key capabilities** of TMDL View on the Web include exploring published semantic model metadata, modifying any semantic model property or object, and increasing reusability and collaboration through shared TMDL scripts, providing full control over semantic models and advanced configurations.
+* The web experience introduces **distinct View and Edit modes**, enabling safer experimentation and changes to be previewed before being applied to the model, differing from the Power BI Desktop version where changes can be made and applied at any time without distinct modes.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Translytical Task Flows (Generally Available)**: Power BI now allows users to act directly from reports, updating records, triggering workflows, or resolving data issues in real-time, without leaving the analytics experience, enabling seamless insight and execution.
+* **Semantic Modeling and TMDL View (Preview)**: The introduction of Tabular Model Definition Language (TMDL) View on the Web provides a code-first semantic modeling experience, enabling developers to view, edit, and apply changes to semantic model metadata, promoting greater transparency, efficiency, and automation in model development.
+* **Direct Lake on OneLake (Generally Available)**: Power BI has adopted open-data formats like Delta Lake and Parquet, allowing for reduced refresh overhead, vendor lock-in, and data duplication, while Direct Lake storage mode accelerates time to data-driven decisions with improved performance and compatibility with OneLake security.
+* **Modern Visual Defaults and Calculated Columns (Preview)**: Power BI has introduced modern visual defaults with a polished and consistent look, as well as calculated columns for Direct Lake tables, which can be made user-context aware using DAX functions, enabling more flexible and dynamic data analysis and visualization capabilities.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-23
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
