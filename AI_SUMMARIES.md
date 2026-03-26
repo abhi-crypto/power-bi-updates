@@ -1,5 +1,33 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-26
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot capabilities**: The March 2026 update introduces improvements to Copilot, a feature designed to streamline report creation and authoring workflows, making it easier for users to build and refine their reports.
+* **Reporting and visualization updates**: This release includes a range of updates to reporting and visualization features, focusing on enhancing the overall user experience and making it simpler to create and customize interactive visuals.
+* **Modeling and data management enhancements**: The update brings improvements to data modeling and management, enabling users to work more efficiently with their data and create more robust and scalable models.
+* **Expanded data connectivity options**: The March 2026 update expands Power BI's data connectivity capabilities, providing users with greater flexibility and options for connecting to various data sources, and making it easier to integrate data from multiple platforms and systems.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+* The Server Error 502 occurs when a web server acting as a gateway or proxy receives an invalid response from an upstream content server, indicating a communication failure between the two servers.
+* This error can be triggered by issues such as misconfigured server settings, invalid HTTP requests, or server overload, which prevent the web server from retrieving the requested content.
+* The error is typically a result of an upstream content server responding with an invalid or malformed HTTP response, which the web server cannot process or forward to the client, resulting in the display of the 502 error page.
+* To resolve the issue, troubleshooting efforts should focus on identifying and addressing the root cause of the invalid response, which may involve inspecting server logs, verifying server configurations, and optimizing server performance to ensure reliable communication between the web server and upstream content servers.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Semantic Layers and Fabric IQ**: Microsoft Fabric IQ extends Power BI's semantic layer, capturing business definitions, relationships, and governance to support analytics and AI with fewer gaps and less guessing, enabling a broader, connected context for decision-making.
+* **Translytical Task Flows and Modern Visual Defaults**: Power BI now offers translytical task flows, allowing users to take action directly from reports, and modern visual defaults, providing a polished and consistent look for new reports, aligning with Fluent 2 design and reducing time spent on formatting.
+* **TMDL View and Direct Lake on OneLake**: The Tabular Model Definition Language (TMDL) View is launching in preview, enabling a code-first semantic modeling experience in the browser, while Direct Lake on OneLake reduces refresh overhead, keeps data in open formats, and provides compatibility with OneLake security, faster query performance, and more modeling features.
+* **Report Copilot, Table Visual Updates, and Calculated Columns**: Power BI has introduced Report Copilot for Mobile, allowing users to ask questions and receive instant answers, as well as table visual updates with greater control over totals and modern default styles, and is previewing calculated columns for Direct Lake tables, enabling users to extend tables without modifying upstream data preparation.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-25
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
