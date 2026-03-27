@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-27
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot capabilities**: The latest update introduces improvements to Copilot, aiming to simplify everyday authoring tasks and provide a more streamlined user experience.
+* **Reporting and visualization updates**: This month's release includes various enhancements to reporting and visualization features, focusing on making data representation more intuitive and user-friendly.
+* **Modeling and data management improvements**: The update brings refinements to Power BI's modeling and data management capabilities, ensuring more efficient data handling and analysis.
+* **Advanced data connectivity options**: The March 2026 feature summary also includes expanded data connectivity features, allowing users to seamlessly integrate and connect to various data sources, further enhancing the overall Power BI experience.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog on TMDL View on the Web (Preview):
+
+* **Code-first semantic modeling**: TMDL View on the Web provides a powerful code-first semantic modeling experience directly in the browser, allowing Power BI developers to script, modify, and apply changes to semantic model objects using the Tabular Model Definition Language (TMDL) without switching to Power BI Desktop or downloading model files.
+* **Key capabilities and benefits**: TMDL View on the Web offers features such as exploring published semantic model metadata, enhanced development efficiency with a modern code editor, modifying any semantic model property/object, and increased reusability and collaboration through sharing TMDL scripts.
+* **Code editing and management**: The feature includes a rich code editor with built-in IntelliSense, multiline editing, search and replace capabilities, and support for AI-powered tools like GitHub Copilot, enabling developers to efficiently author and manage TMDL scripts and streamline their modeling workflow.
+* **Differences from TMDL View in Desktop**: TMDL View on the Web introduces distinct view and edit modes, allowing for safer experimentation and previewing of changes before applying them to the model, whereas TMDL View in Power BI Desktop does not have distinct modes and applies changes directly to the model.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Semantic Layer Expansion**: Microsoft Fabric IQ is building on Power BI's semantic layer, extending trusted definitions into a broader context to support analytics and AI, reducing gaps and guessing, and enabling a common language of insight across the enterprise.
+* **Translytical Task Flows**: Power BI now offers translytical task flows, allowing users to act directly from reports, updating records, triggering workflows, or resolving data issues in real-time, eliminating the need to switch systems or wait for requests to be processed.
+* **Enhanced Data Modeling and Lake Storage**: Power BI is introducing new features such as TMDL View in the Web, Direct Lake on OneLake, and calculated columns for Direct Lake tables, enabling greater control over data modeling, faster query performance, and improved data management, all while adopting open-data formats like Delta Lake and Parquet.
+* **Modern Visualizations and AI-Driven Insights**: Power BI is releasing modern visual defaults, Report Copilot for Mobile, and other features that enable users to create polished and consistent reports, ask questions using voice or text, and receive instant answers or visuals, all while strengthening the semantic foundation that AI relies on to deliver consistent and trustworthy answers.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-26
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
