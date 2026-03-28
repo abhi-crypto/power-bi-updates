@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-28
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot capabilities**: The March 2026 update introduces improvements to Copilot, aiming to streamline everyday authoring tasks and enhance the overall user experience.
+* **Reporting and visualization enhancements**: This update brings a set of thoughtful improvements to reporting and visualization capabilities, making it easier to create and customize interactive visuals.
+* **Modeling and data management updates**: The update includes enhancements to data modeling and management, providing smoother data connectivity and more efficient data preparation for report creation.
+* **Expanded data connectivity options**: The March 2026 update expands Power BI's data connectivity capabilities, allowing users to connect to a wider range of data sources and integrate data from various platforms and systems.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog on TMDL View on the Web (Preview) for a professional:
+
+* The TMDL View on the Web feature in Power BI allows developers to view and edit semantic models as code directly in the browser using the Tabular Model Definition Language (TMDL), providing a powerful code-first semantic modeling experience without the need to switch to Power BI Desktop or download model files.
+* Key capabilities of TMDL View on the Web include exploring published semantic model metadata, enhanced development efficiency through a modern code editor with built-in IntelliSense and multiline editing, and the ability to modify any semantic model property or object directly in the browser.
+* TMDL View on the Web enables increased reusability and collaboration by allowing developers to easily share and reuse semantic model objects by sharing TMDL scripts, which can be copied, pasted, and previewed before applying changes to the model.
+* The web-based TMDL View introduces two distinct modes - View mode and Edit mode - allowing for safer experimentation and change management, whereas the Power BI Desktop version of TMDL View does not have distinct modes, enabling changes to be made and applied to the model at any time.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Translytical Task Flows**: Power BI now supports translytical task flows, allowing users to take action directly from reports, such as updating records, triggering workflows, or resolving data issues in real-time, without leaving the analytics experience.
+* **Semantic Layer Enhancements**: Microsoft Fabric IQ builds on Power BI's semantic layer, extending trusted definitions into a broader context to support analytics and AI, with new capabilities such as TMDL View in the Web (Preview) and Direct Lake on OneLake (Generally Available) to improve model development and data standardization.
+* **Modern Visual Defaults and Report Copilot**: Power BI introduces Modern visual defaults (Preview) with a refreshed base theme and style presets, and Report Copilot for Mobile (Preview), enabling users to ask questions and receive instant answers or visuals using voice or text in the Power BI mobile app.
+* **Direct Lake and Data Storage Enhancements**: Power BI now supports Direct Lake storage mode on OneLake, accelerating time to data-driven decisions with improved performance and compatibility with OneLake security, and introduces calculated columns for Direct Lake tables (Preview), allowing users to extend Direct Lake tables and make calculated columns user-context aware using DAX functions.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-27
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
