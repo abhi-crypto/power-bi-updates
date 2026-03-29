@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-29
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary for a professional:
+
+* **Enhanced Copilot Capabilities**: The March 2026 update introduces improvements to Copilot, aiming to streamline everyday authoring tasks and provide more efficient report creation.
+* **Reporting and Visualization Updates**: This release includes enhancements to reporting and visualization features, focusing on making data visualization more intuitive and user-friendly.
+* **Modeling and Data Management**: The update includes improvements to data modeling and management, enabling more seamless data connectivity and better data governance.
+* **Data Connectivity Enhancements**: The March 2026 update introduces advancements in data connectivity, allowing for more flexible and robust data integration and exchange, and supporting more efficient data-driven decision-making.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog on TMDL View on the Web (Preview):
+
+* **Semantic Modeling as Code**: TMDL View on the Web enables developers to view and edit semantic models as code directly in the browser using the Tabular Model Definition Language (TMDL), a human-readable code format that describes the entire semantic model.
+* **Code Editor Capabilities**: The feature includes a modern code editor with built-in IntelliSense, multiline editing, search and replace capabilities, and support for AI-powered tools like GitHub Copilot, allowing for more efficient development and scripting of TMDL definitions.
+* **Model Exploration and Modification**: Developers can explore published semantic model metadata, get full visibility into objects and properties, and modify any semantic model property or object directly in the browser, including advanced settings not exposed in the standard modeling interface.
+* **Reusability and Collaboration**: TMDL View on the Web enables easy sharing and reuse of semantic model objects by sharing TMDL scripts, allowing developers to copy and paste scripts between models, preview changes, and apply them, streamlining collaboration and reusability of model components.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* **Semantic Layers and Fabric IQ**: Microsoft Fabric IQ extends Power BI's semantic layer, capturing business definitions, relationships, and governance, to support analytics and AI with fewer gaps and less guessing, enabling a more connected and trusted context.
+* **Translytical Task Flows and Direct Lake**: Power BI now offers translytical task flows, allowing users to act directly from reports, and Direct Lake on OneLake, which accelerates time to data-driven decisions by unlocking performance directly from OneLake, reducing refresh overhead and keeping data in open formats like Delta Lake and Parquet.
+* **Modern Visual Defaults and TMDL View**: Power BI introduces Modern visual defaults, providing a polished and consistent look for new reports, and TMDL View in the Web, a code-first semantic modeling experience that enables developers to view, edit, and apply changes to semantic model metadata directly in the browser.
+* **Report Copilot and Calculated Columns**: Power BI's Report Copilot is now available on mobile, allowing users to ask questions and receive instant answers or visuals, and calculated columns for Direct Lake tables will soon be available in preview, enabling users to extend Direct Lake tables without requiring upstream changes, with the ability to make calculated columns user-context aware using DAX functions.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-28
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
