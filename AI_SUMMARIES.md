@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-03-30
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Improved Copilot functionality**: The March update introduces enhancements to Copilot, aimed at streamlining the authoring experience and providing more intuitive interactions.
+* **Reporting and visualization upgrades**: This release includes updates to reporting and visualization capabilities, focused on making it easier to create and customize visuals, and to enhance the overall reporting experience.
+* **Modeling advancements**: The March update brings improvements to data modeling, enabling more efficient and effective data preparation, and more robust data structures.
+* **Enhanced data connectivity options**: This feature summary includes updates to data connectivity, expanding the range of data sources that can be easily integrated into Power BI, and improving the overall data import and synchronization process.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **TMDL View on the Web** is a new feature in Power BI that allows developers to view and edit semantic models as code directly in the browser using the Tabular Model Definition Language (TMDL), providing a powerful code-first semantic modeling experience without requiring Power BI Desktop or model file downloads.
+* **Key capabilities** of TMDL View on the Web include exploring published semantic model metadata, enhanced development efficiency through a modern code editor with IntelliSense and multiline editing, modifying any semantic model property or object, and increased reusability and collaboration through sharing and reusing TMDL scripts.
+* **Functionality differences** between TMDL View in Power BI Desktop and TMDL View on the Web include the introduction of distinct View and Edit modes in the web version, allowing for safer experimentation and change management, whereas the Desktop version allows changes to be made and applied to the model at any time without distinct modes.
+* **Benefits for developers** include full transparency into semantic model code, more efficient workflows through code editing, and the ability to use AI-powered tools like GitHub Copilot to assist with authoring TMDL scripts, streamlining the modeling workflow and reducing repetitive work.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Translytical Task Flows**: Power BI now allows users to act directly from reports, updating records, triggering workflows, or resolving data issues in real-time, without leaving the analytics experience, enabling seamless insight and execution.
+* **Semantic Layer Enhancements**: Microsoft Fabric IQ extends Power BI's semantic layer, capturing definitions, relationships, and governance, to support analytics and AI with fewer gaps and less guessing, providing a foundation for enterprise AI and trusted data products.
+* **Data Modeling and Storage**: Power BI is adopting open-data formats like Delta Lake and Parquet, and introducing Direct Lake storage mode on OneLake, which accelerates time to data-driven decisions, reduces refresh overhead, and unlocks incredible performance directly from OneLake.
+* **Advanced Analytics and Visualization**: New features like Modern visual defaults, Report Copilot for Mobile, and TMDL View in the Web enable users to create polished and consistent reports, ask questions and receive instant answers, and edit semantic model metadata using a code-first approach, enhancing the overall analytics and visualization experience in Power BI.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-29
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary for a professional:
