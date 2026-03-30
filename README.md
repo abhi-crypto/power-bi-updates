@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-03-30
+* [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+* [Semantic Layers: The foundation of enterprise AI](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+* [Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-modern-visual-defaults-and-customizing-theme-improvements-preview/)
+* [Power BI March 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/)
+* [Input slicer: Filter reports and collect user input (Generally Available)](https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/)
+
+---
+
 ## 📅 Updates Pulled: 2026-03-29
 * [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
 * [Semantic Layers: The foundation of enterprise AI](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
