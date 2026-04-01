@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-01
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI March 2026 update introduces improvements to **Copilot**, enhancing its functionality to support more efficient reporting and data analysis.
+* **Reporting** capabilities have been expanded, with new features aimed at streamlining the authoring process and improving overall user experience.
+* Enhancements to **data modeling** enable more robust and flexible data structures, allowing for more accurate and insightful data analysis and visualization.
+* **Data connectivity** has been improved, with updates focused on simplifying data integration and access, enabling users to easily connect to and work with diverse data sources.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog:
+
+* The Power BI mobile app now supports a full conversational chat experience with in-report Copilot, allowing users to summarize, inquire, and analyze report data directly from their phone or tablet, with capabilities similar to those found in the Power BI service.
+* The in-report Copilot chat experience is optimized for mobile devices and is grounded in the report being viewed, with features such as generating summaries, asking questions, and using a prompt gallery to get started with sample prompts.
+* In-report Copilot on the mobile app analyzes report content, surfacing insights and including visualizations along with text responses, which can be interacted with and explored further, and also supports features such as citing relevant data points and allowing users to tap on citations to view and interact with visuals.
+* The in-report Copilot chat experience on the mobile app also supports voice dictation on iPhone and iPad, allowing users to ask hands-free questions, and includes features such as copying and sharing responses, as well as listening to responses with the "Read aloud" feature.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+Here are four technical bullet points summarizing the Power BI blog on TMDL View on the Web (Preview) for a professional:
+
+* **Code-first semantic modeling**: TMDL View on the Web allows developers to script, modify, and apply changes to semantic model objects using the Tabular Model Definition Language (TMDL) directly in the browser, providing a powerful code-first semantic modeling experience without the need to switch to Power BI Desktop or download model files.
+* **Rich code editor and IntelliSense**: The TMDL View on the Web feature includes a modern code editor with built-in IntelliSense, multiline editing, search and replace capabilities, and support for AI-powered tools like GitHub Copilot, enabling developers to efficiently author and modify TMDL scripts and streamline their modeling workflow.
+* **Advanced model editing and exploration**: TMDL View on the Web provides full visibility into semantic model metadata, including advanced properties not exposed in the standard UI, and allows developers to edit properties and objects directly in the browser, including advanced settings like partition definitions and properties like `isAvailableInMdx`.
+* **Collaboration and reusability**: The feature enables easy sharing and reuse of semantic model objects by sharing TMDL scripts, allowing developers to copy and paste scripts from one model to another, preview changes, and apply them, promoting collaboration and reducing repetitive work across different models and projects.
+
+---
+
+
 ## 🤖 AI Summary: 2026-03-31
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
