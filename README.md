@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-04-02
+* [Chat with Copilot inside a report on the Power BI mobile app (Preview)](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+* [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+* [Semantic Layers: The foundation of enterprise AI](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+* [Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-modern-visual-defaults-and-customizing-theme-improvements-preview/)
+* [Power BI March 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/)
+
+---
+
 ## 📅 Updates Pulled: 2026-04-01
 * [Chat with Copilot inside a report on the Power BI mobile app (Preview)](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
 * [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
