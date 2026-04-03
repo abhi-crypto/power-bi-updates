@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-03
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog:
+
+* **Enhanced Copilot capabilities**: The March 2026 update introduces improvements to Copilot, aiming to facilitate smoother authoring experiences and increased productivity for users.
+* **Reporting and visualization updates**: This release includes various enhancements to reporting and visualization features, allowing for more effective creation and customization of visuals in Power BI.
+* **Modeling and data management advancements**: The update brings improvements to data modeling and management, enabling users to work more efficiently with their data and create more robust models.
+* **Expanded data connectivity options**: The March 2026 update expands Power BI's data connectivity capabilities, providing users with greater flexibility and convenience when connecting to various data sources and integrating them into their reports and dashboards.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are four technical bullet points summarizing the Power BI blog on Dataflows Gen2:
+
+* **Dataflows Gen2 offers more flexible destinations**: Gen2 supports a broader range of output destinations, including SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database, Microsoft Fabric Lakehouse, Snowflake, and other cloud databases, enabling alignment with diverse data architectures and allowing teams to use dataflows as a general-purpose low-code data ingestion and transformation layer.
+* **Improved performance and scale**: Dataflows Gen2 is built on the Fabric runtime and a modernized execution engine, delivering a step-change in performance, reliability, and scalability, with features such as modern query evaluation, Fast Copy technology, parallelized execution, and enhanced support for large datasets, enabling sustained data movement measured in gigabytes per minute and reducing refresh durations.
+* **Built-in AI assistance**: Dataflows Gen2 introduces integrated AI capabilities designed to accelerate development, improve quality, and reduce the learning curve for users working with complex data preparation pipelines, enabling users to work more efficiently and effectively with data.
+* **Gen2 replaces Gen1 as the future of Dataflows**: All new Dataflow innovation will land only in Dataflows Gen2, and Gen1 has reached the end of active innovation, with existing Gen1 dataflows continuing to work for the foreseeable future, but with limited support and no new features planned, and a retirement date to be announced, making it essential for customers to plan a move to Dataflows Gen2 to take advantage of the latest investments and improvements.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI mobile app now offers a full conversational chat experience with in-report Copilot, allowing users to summarize, inquire, and analyze report data directly from their phone or tablet, similar to the capabilities in the Power BI service.
+* The in-report Copilot chat experience includes features such as generating summaries, asking natural-language questions, and using a prompt gallery to get started, with the ability to ask follow-up questions and explore report insights further.
+* The in-report Copilot on the mobile app analyzes report content, surfaces insights, and includes visualizations with text responses, enabling users to interact with the visuals and explore details, with support for voice dictation and read-aloud functionality on iPhone and iPad.
+* Users can share data insights with their team by copying the response or tapping the Share action from the visual pane, and the Power BI team invites feedback on the new in-report Copilot chat experience to help shape future enhancements and capabilities.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-02
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
