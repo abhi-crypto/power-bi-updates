@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-04-05
+* [Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+* [Chat with Copilot inside a report on the Power BI mobile app (Preview)](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+* [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+* [Semantic Layers: The foundation of enterprise AI](https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/)
+* [Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)](https://powerbi.microsoft.com/en-us/blog/deep-dive-into-modern-visual-defaults-and-customizing-theme-improvements-preview/)
+
+---
+
 ## 📅 Updates Pulled: 2026-04-04
 * [Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
 * [Chat with Copilot inside a report on the Power BI mobile app (Preview)](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
