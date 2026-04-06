@@ -1,5 +1,34 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-06
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are four technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot functionality**: The March 2026 update introduces improvements to Copilot, a feature that assists users in creating and editing reports, to streamline the authoring process and improve overall user experience.
+* **Reporting and visualization updates**: This release includes updates to reporting and visualization capabilities, aimed at making it easier to create and interact with visuals, and to improve the overall usability of the platform.
+* **Modeling and data management enhancements**: The March 2026 update brings improvements to data modeling and management, including enhancements to data connectivity and handling, to support more efficient and effective data analysis.
+* **Data connectivity improvements**: This release includes updates to data connectivity options, allowing users to more easily connect to and integrate data from various sources, and to leverage the power of Power BI to drive business insights and decision-making.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Dataflows Gen2 as the future of data preparation**: Dataflows Gen2 is the next generation of Power BI Dataflows, building on the familiar Power Query experience while introducing significant improvements in scale, flexibility, cost efficiency, and manageability, making it the go-to platform for future innovation and development.
+* **Enhanced destinations and integration**: Dataflows Gen2 supports a broader range of output destinations, including SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database, Microsoft Fabric Lakehouse, and Snowflake, allowing for more flexible and diverse data architectures and integration with various tools and platforms.
+* **Improved performance and scale**: Dataflows Gen2 is built on the Fabric runtime and a modernized execution engine, delivering improved performance, reliability, and scalability through features such as modern query evaluation, Fast Copy technology, parallelized execution, and enhanced support for large datasets, making it more suitable for enterprise environments.
+* **Integrated AI assistance and governance**: Dataflows Gen2 introduces integrated AI capabilities designed to accelerate development, improve quality, and reduce the learning curve for users, while also providing better governance alignment through deep integration with Microsoft Fabric, enabling more consistent semantics, and improved manageability, making it a more comprehensive and robust platform for data preparation and analytics.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+Here are four technical bullet points summarizing the new Power BI mobile app feature:
+* The Power BI mobile app now supports a full conversational chat experience with in-report Copilot, allowing users to summarize, inquire, and analyze report data directly from their phone or tablet.
+* In-report Copilot on the mobile app analyzes report content, surfacing insights and providing responses that include visualizations, which can be interacted with and explored in detail.
+* The feature supports natural-language questioning, follow-up questions, and query refinement, enabling users to dive deeper into report insights and discover new information.
+* The in-report Copilot chat experience on the mobile app includes features such as voice support (dictation and read-aloud), copy and share capabilities, and citation links to specific visuals, making it easier to analyze and share report data on-the-go.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-05
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
