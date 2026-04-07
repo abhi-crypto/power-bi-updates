@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-07
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary for a professional:
+
+* The March 2026 update introduces enhancements to Copilot, aimed at streamlining authoring processes and improving overall user experience.
+* Reporting capabilities have been improved, with a focus on providing smoother and more intuitive visualizations, making it easier to create and share insights.
+* Modeling features have been updated to provide more flexibility and control, enabling users to create more accurate and robust data models that drive business decisions.
+* Data connectivity has been expanded, with new updates allowing for easier integration with various data sources, reducing the complexity and effort required to connect and analyze data within Power BI.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* **Dataflows Gen2**: The new generation of Dataflows builds on the existing Gen1, preserving the Power Query authoring experience while delivering improvements in scale, flexibility, cost efficiency, and manageability, and will receive all new feature innovations going forward.
+* **Gen1 Retirement**: Dataflows Gen1 has reached the end of active innovation, will be marked as Legacy, and will have limited support for high-impact issues, with retirement dates being finalized and at least 12 months' notice provided for Premium capacity customers before retirement.
+* **Gen2 Enhancements**: Dataflows Gen2 introduces a broader range of output destinations, including SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database, Microsoft Fabric Lakehouse, and Snowflake, as well as improved performance and scale through a modernized execution engine, fast copy technology, and parallelized execution.
+* **AI Assistance and Governance**: Dataflows Gen2 includes integrated AI capabilities to accelerate development, improve quality, and reduce the learning curve, as well as enhanced governance features, such as predictable refresh behavior, elastic compute layer, and improved support for large datasets, to establish a more durable and high-performance engine for data preparation.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI mobile app now supports a full conversational chat experience with in-report Copilot, allowing users to summarize, inquire, and analyze report data directly from their phone or tablet, similar to the capabilities available in the Power BI service.
+* The in-report Copilot chat pane enables users to generate summaries, ask natural-language questions, and explore insights within a report, with features such as a prompt gallery to help get started with sample prompts and the ability to ask follow-up questions to dive deeper into report insights.
+* In-report Copilot on the mobile app analyzes report content, surfacing insights and including visualizations with text responses, which can be interacted with and explored in more detail, and also supports features such as copying and sharing responses, as well as voice support with dictation and read-aloud capabilities on iPhone and iPad.
+* The new in-report Copilot chat experience on the Power BI mobile app is optimized for mobile use, allowing users to easily review and interact with report data on-the-go, and provides a more seamless and intuitive experience for analyzing and exploring report insights, with future enhancements and capabilities planned for upcoming releases.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-06
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are four technical bullet points summarizing the Power BI March 2026 Feature Summary:
