@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-11
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* The March 2026 Power BI update introduces enhancements to Copilot, aiming to streamline report authoring and improve overall user experience.
+* Reporting capabilities have been expanded with new features, enabling more efficient and flexible data visualization and analysis.
+* Modeling improvements have been made, allowing for more robust and scalable data models that support complex business scenarios.
+* Data connectivity has been enhanced, providing users with better integration options and more seamless access to diverse data sources, supporting more comprehensive data analysis and insights.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are four technical bullet points summarizing the Power BI blog on Dataflows Gen2:
+
+* **Dataflows Gen2 Architecture**: Dataflows Gen2 is built on the Fabric runtime and a modernized execution engine, delivering improved performance, reliability, and scalability, while preserving the familiar Power Query authoring experience.
+* **Enhanced Destinations and Integration**: Dataflows Gen2 supports a broader range of output destinations, including SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database, Microsoft Fabric Lakehouse, Snowflake, and other cloud databases, enabling alignment with diverse data architectures and multi-cloud scenarios.
+* **Improved Performance and Scale**: Dataflows Gen2 leverages Fabric's elastic compute layer for automatic scaling, modern query evaluation, Fast Copy technology, and parallelized execution, resulting in significant improvements in performance, reliability, and scalability, especially for large datasets and enterprise environments.
+* **AI Assistance and Governance**: Dataflows Gen2 introduces integrated AI capabilities to accelerate development, improve quality, and reduce the learning curve for users, while also providing enhanced governance and manageability features, such as predictable refresh behavior and improved support for large datasets, to ensure a more durable and high-performance engine for data preparation.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI mobile app now features a full conversational chat experience with in-report Copilot, allowing users to summarize, inquire, and analyze report data directly from their phone or tablet, similar to the capabilities available in the Power BI service.
+* The in-report Copilot chat experience is optimized for mobile and is grounded in the report being viewed, enabling users to ask natural-language questions, explore insights, and interact with visualizations directly within a report.
+* The chat pane in the mobile app allows users to generate summaries, ask questions, and ask follow-up questions to explore report data further, with the option to use a prompt gallery for sample prompts and to interact with visualizations in a separate pane.
+* The in-report Copilot chat experience on the mobile app also includes features such as voice support with dictation and "Read aloud" functionality on iPhone and iPad, as well as the ability to copy and share data insights with others, making it easier to analyze and share report data on-the-go.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-10
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
