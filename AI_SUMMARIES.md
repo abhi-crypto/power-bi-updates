@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-19
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI March 2026 update includes enhancements to Copilot, designed to improve the overall authoring experience and streamline report creation.
+* Reporting capabilities have been expanded with new features and improvements, aiming to make data visualization and storytelling more intuitive and efficient.
+* Modeling updates have been introduced to refine data modeling processes, enabling more precise and effective data analysis and insights.
+* Data connectivity has been strengthened with new improvements, allowing for more seamless and reliable connections to various data sources, and enhancing the overall data integration experience in Power BI.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are four technical bullet points summarizing the Power BI blog on Dataflows Gen2 for a professional:
+
+* **Gen2 Architecture**: Dataflows Gen2 is built on the Fabric runtime and a modernized execution engine, delivering improved performance, reliability, and scalability, with features like elastic compute layer, fast copy technology, and parallelized execution to minimize manual optimization and workload tuning.
+* **Destination Flexibility**: Dataflows Gen2 supports a broader range of output destinations, including SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database, Microsoft Fabric Lakehouse, Snowflake, and other cloud databases, enabling alignment with diverse data architectures and use cases.
+* **Performance and Scale**: Dataflows Gen2 offers significant performance improvements, including modern query evaluation, fast copy technology, and enhanced support for large datasets, with features like predictable refresh behavior, improved memory handling, and high-cardinality data processing to support high-performance data preparation.
+* **AI-Driven Development**: Dataflows Gen2 introduces integrated AI capabilities to accelerate development, improve quality, and reduce the learning curve for users, with features designed to streamline data preparation, transformation, and ingestion, and provide a more intuitive and efficient user experience.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+Here are 4 technical bullet points summarizing the new Power BI mobile app feature:
+
+* The Power BI mobile app now supports a full conversational chat experience with in-report Copilot, allowing users to summarize, inquire, and analyze report data directly from their phone or tablet.
+* The in-report Copilot chat experience is optimized for mobile devices and provides the same chat-based capabilities as the Power BI service, including generating summaries, asking questions, and using a prompt gallery to get started.
+* The feature includes advanced analytics capabilities, such as surfacing insights from report data, providing visualizations along with text responses, and allowing users to interact with visuals and explore details.
+* The new chat experience also supports voice dictation on iPhone and iPad, allowing users to ask hands-free questions, and provides features like copy and share actions, and read-aloud responses, making it easier to analyze and share report data on-the-go.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-18
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
