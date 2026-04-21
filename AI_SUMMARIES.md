@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-21
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* The March 2026 update introduces improvements to Copilot, enhancing its capabilities to facilitate smoother and more efficient authoring experiences.
+* Reporting capabilities have been expanded, providing users with more flexibility and options for creating and customizing reports to meet their specific needs.
+* Modeling enhancements have been made, enabling more precise and efficient data modeling, and allowing users to create more complex and accurate data structures.
+* Data connectivity has been improved, allowing for more seamless and efficient integration with various data sources, and providing users with a more streamlined experience when working with diverse datasets.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+Here are four technical bullet points summarizing the Power BI blog on Translytical Task Flows:
+
+* **Connectivity to Fabric Data Sources**: Translytical task flows connect Power BI reports to Fabric User Data Functions, enabling users to update records, add annotations, and trigger actions in external systems, with native connection management for Fabric SQL databases, warehouses, and lakehouses (for files).
+* **Capabilities and Use Cases**: Translytical task flows support various capabilities, including adding, updating, and deleting data, as well as calling external APIs, and can be applied to scenarios such as data annotation and quality management, workflow automation, and AI-assisted decision making.
+* **Technical Requirements and Development**: Building a translytical task flow involves storing data in a Fabric data source, developing a User Data Function to handle the action, creating a Power BI semantic model, and building a Power BI report with interactive elements to capture user input and call the function, with tools like Copilot in Microsoft Fabric and GitHub Copilot in Visual Studio Code available to accelerate the process.
+* **Integration and Execution**: Translytical task flows enable report consumers to become active participants, allowing them to complete their entire workflow within the Power BI interface, and connecting insight directly to execution, reducing the time between identifying an opportunity and acting on it, with support for adaptive cards and integration with Microsoft Teams for seamless execution and notification.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Dataflow Gen1 Legacy State**: Dataflow Gen1 has reached the end of active innovation and is moving into a legacy state, with no new features planned and limited support for high-impact issues, while existing workloads can continue to run with no immediate disruption.
+* **Dataflow Gen2 Benefits**: Dataflow Gen2 offers significant improvements over Gen1, including more flexible destinations (e.g., SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database), enhanced scalability, cost efficiency, and manageability, making it the recommended path for new or evolving workloads.
+* **Transition and Support**: Premium customers are encouraged to transition to Dataflow Gen2, with at least 12 months' notice before Gen1 is retired, while Pro and Premium Per User (PPU) customers can continue to use Gen1 for existing workloads, with guidance and support for a smooth transition to Gen2 as new paths become available.
+* **Future Development and Governance**: All new Dataflow innovation will be focused on Gen2, with work underway to provide more granular administrative controls, including the ability to enable only Dataflow Gen2, allowing for incremental rollout with the right governance, and ensuring a supported upgrade path for customers using Dataflows in GCC environments.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-20
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
