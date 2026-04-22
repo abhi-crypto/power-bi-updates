@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-22
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
+
+* **Enhanced Copilot capabilities**: The March update introduces improvements to Copilot, aiming to streamline everyday authoring tasks and enhance the overall user experience.
+* **Reporting and visualization updates**: This release includes a set of thoughtful improvements to reporting and visualization features, making it easier to create and customize interactive and dynamic visuals.
+* **Modeling and data management enhancements**: The update brings new features and enhancements to data modeling and management, focusing on simplifying data preparation, modeling, and governance.
+* **Improved data connectivity options**: The March update expands data connectivity capabilities, providing users with more options for connecting to various data sources, and making it easier to integrate and analyze data from different platforms and systems.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on Translytical Task Flows:
+
+* **Data Write-Back Capabilities**: Translytical task flows enable users to update records, add annotations, and trigger actions in external systems directly from within a Power BI report, without requiring a separate application, with capabilities including adding, updating, and deleting data, as well as calling external APIs.
+* **Integration with Fabric User Data Functions**: Translytical task flows connect Power BI reports to Fabric User Data Functions, allowing users to execute actions in response to interactions with a report, such as selecting a record, entering a value, and clicking a button, with native connection management for Fabric SQL databases, warehouses, and lakehouses.
+* **Workflow Automation and AI-Assisted Decision Making**: Translytical task flows can be used to automate business processes, such as approvals, notifications, and ticket creation, and can also be integrated with AI functions in Fabric Notebooks to categorize or summarize data, which can then be reviewed and updated in a Power BI report.
+* **Implementation and Development**: Building a translytical task flow involves storing data in a Fabric data source, developing a User Data Function to handle the action, creating a Power BI semantic model, and building a Power BI report with interactive elements to capture user input and call the function, with tools like Copilot in Microsoft Fabric and GitHub Copilot in Visual Studio Code available to accelerate the process.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Dataflow Gen1 Legacy State**: Dataflow Gen1 has reached the end of active innovation and is moving into a legacy state, with existing dataflows continuing to work but no new features planned, and support limited to high-impact issues, while Dataflow Gen2 is the recommended path for future investments.
+* **Dataflow Gen2 Enhancements**: Dataflow Gen2 introduces significant platform-level improvements, including more flexible destinations (e.g. SharePoint, OneDrive, Azure Data Lake Storage, Azure SQL Database), enhanced scalability, performance, governance, and cost efficiency, while retaining the familiar Power Query experience.
+* **Deployment and Support**: Premium customers are recommended to adopt Dataflow Gen2 for new or evolving workloads, while Pro and Premium Per User (PPU) customers can continue to use Dataflow Gen1, with clear guidance and recommended steps for a smooth transition to Gen2; GCC support for Premium customers will be available before any future transition milestones.
+* **Administrative Controls and Governance**: Work is underway to provide more granular administrative controls, including the ability to enable only Dataflow Gen2, allowing capabilities to be rolled out incrementally with the right governance, and addressing customer requests for finer-grained enablement and control over Fabric features.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-21
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI March 2026 Feature Summary:
