@@ -1,5 +1,13 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-04-23
+* [Power BI April 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
+* [Translytical Task Flows (Generally Available)](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+* [Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+* [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+
+---
+
 ## 📅 Updates Pulled: 2026-04-22
 * [Translytical Task Flows (Generally Available)](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
 * [Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
