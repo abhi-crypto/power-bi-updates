@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-24
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI April 2026 Feature Summary:
+
+* The April 2026 Power BI update includes enhancements to layouts and visuals, providing more flexibility for report authors to customize and arrange their content.
+* Expanded Copilot experiences are now available, particularly on mobile devices, allowing users to leverage AI-powered capabilities on-the-go and streamline their reporting workflows.
+* The update introduces several preview features aimed at improving performance and authoring workflows, enabling users to test and provide feedback on upcoming capabilities.
+* The release builds upon previous improvements in reporting, visuals, and modeling, further enhancing the overall Power BI platform and providing users with a more robust and efficient business intelligence tool.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
+Here are four technical bullet points summarizing the Power BI April 2026 feature summary for a professional:
+
+* **Enhanced Copilot and AI capabilities**: The Power BI mobile app now offers expanded Copilot features, including support for open-ended questions and follow-up conversations, as well as AI-generated visualizations to aid in analysis and exploration of report data.
+* **Improved reporting and visualization features**: The update introduces modern visual defaults and customizable theme improvements (in preview), allowing users to personalize their reports with more flexibility, as well as a fixed-size layout for card, button slicer, and list slicer visuals.
+* **Modeling and data manipulation advancements**: The release includes preview features such as direct lake calculated columns and tables, user context-aware calculated columns, and DAX user-defined functions, which aim to enhance data modeling and calculation capabilities within Power BI.
+* **Deprecation and compatibility updates**: The old file picker experience in Power BI Desktop is being deprecated in favor of the updated file picker experience, and the built-in Netezza ODBC driver is being replaced by a newer version, requiring customers to install the new ODBC driver to ensure a smooth transition.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on Translytical Task Flows:
+
+* **Data Manipulation**: Translytical task flows enable users to add, update, and delete data records directly within Power BI reports, connecting to Fabric User Data Functions to execute these actions, and supporting use cases such as data annotation, quality management, and workflow automation.
+* **API Integration**: Translytical task flows allow users to trigger actions in external systems through API requests, capturing and passing on context and messages, and enabling scenarios such as requesting discount approvals that post directly to Microsoft Teams for manager review and response.
+* **Technical Implementation**: Building translytical task flows involves storing data in a Fabric data source, developing a User Data Function to handle the action, creating a Power BI semantic model, and building a Power BI report with interactive elements to capture user input and call the function, with tools like Copilot in Microsoft Fabric and GitHub Copilot in Visual Studio Code available to accelerate the process.
+* **Data Source Connectivity**: Translytical task flows currently support native connection management for Fabric data sources, including Fabric SQL databases, Fabric warehouses, and Fabric lakehouses (for files), enabling seamless integration with Power BI semantic models and User Data Functions to support a range of data write-back scenarios and use cases.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-23
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI April 2026 feature update:
