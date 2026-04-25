@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-25
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are four technical bullet points summarizing the Power BI April 2026 Feature Summary:
+
+* The April 2026 Power BI update introduces expanded flexibility in working with layouts and visuals, enabling more customization options for report authors.
+* The Copilot feature has been enhanced with expanded experiences, particularly on mobile devices, to provide more intuitive and interactive capabilities for users.
+* Several preview features have been included in the update to improve performance and authoring workflows, aiming to streamline report creation and data analysis processes.
+* The update also brings improvements to reporting, modeling, and AI-driven capabilities, further enhancing the overall functionality and usability of the Power BI platform.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI April 2026 feature summary:
+
+* **Expanded Copilot capabilities**: The Power BI mobile app now offers expanded Copilot features, including support for open-ended questions and follow-up conversations, allowing users to have a full, back-and-forth chat with their report and receive AI-generated visualizations to aid in analysis.
+* **Updated layout and visual controls**: The update introduces a fixed size layout for card, button slicer, and list slicer visuals, as well as category interactivity and formatting updates for card visuals, providing more flexibility when working with layouts and visuals.
+* **Enhanced modeling capabilities**: The update includes several preview features for modeling, such as direct lake calculated columns and tables, user context aware calculated columns, and DAX user-defined functions, which aim to enhance performance and authoring workflows.
+* **Visualizations and reporting updates**: The update introduces new visualizations, such as the Date Picker by Powerviz and the Drill Down Waterfall PRO by ZoomCharts, as well as improvements to the Azure Maps visual, including a map style picker sync, and the ability to easily identify preview visuals in the Visualizations pane, expanding the range of reporting and visualization options available to users.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on Translytical Task Flows:
+
+* **Data Manipulation**: Translytical task flows enable users to perform CRUD (Create, Read, Update, Delete) operations directly within Power BI reports, allowing them to insert new records, update existing ones, and delete unnecessary data without leaving the report.
+* **Integration with External Systems**: Translytical task flows can trigger actions in external systems through API requests, enabling users to capture and pass context to external applications, such as requesting a discount approval that posts directly to Microsoft Teams.
+* **Technical Requirements**: Building translytical task flows involves storing data in a Fabric data source, developing a User Data Function to handle the action, creating a Power BI semantic model, and building a Power BI report with interactive elements to capture user input and call the function.
+* **Supported Data Sources and Tools**: Translytical task flows currently support native connection management for Fabric SQL databases, Fabric warehouses, and Fabric lakehouses (for files), with tools like Copilot in Microsoft Fabric and GitHub Copilot in Visual Studio Code available to accelerate the development process.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-24
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI April 2026 Feature Summary:
