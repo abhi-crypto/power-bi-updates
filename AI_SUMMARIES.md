@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-04-26
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI April 2026 feature summary for a professional:
+
+* The April 2026 Power BI update introduces enhanced layout and visual flexibility, allowing for more customized reporting and data visualization.
+* Expanded Copilot experiences are now available, including improved mobile functionality, to facilitate more efficient and intuitive data analysis and reporting.
+* New preview features have been added to improve performance and authoring workflows, streamlining the data modeling and reporting process for Power BI users.
+* The update also includes improvements to modeling, reporting, and AI capabilities, further enhancing the overall Power BI platform and providing users with more advanced tools for data analysis and business intelligence.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI April 2026 feature summary:
+
+* **Enhanced Copilot capabilities**: The Power BI mobile app now supports open-ended questions and follow-up conversations with in-report Copilot, allowing users to ask natural-language questions and explore insights directly within a report, with features like voice dictation on iPhone and iPad.
+* **Improved visual customization**: The update introduces modern visual defaults and customize theme improvements (in preview), including a base theme switcher in the Customize current theme dialog, allowing for more flexibility in report layout and visual design.
+* **New modeling features**: The release includes several new modeling features, such as direct lake calculated columns and tables (in preview), user context aware calculated columns (in preview), and DAX user-defined functions (in preview), which aim to enhance performance and authoring workflows.
+* **Deprecation notices and updates**: The update announces the deprecation of the old file picker experience in Power BI Desktop, replacing it with a new, more intuitive experience, and also deprecates the built-in Netezza ODBC driver, requiring customers to install the new IBM Netezza ODBC driver for a smooth transition.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on Translytical Task Flows:
+
+* **Translytical Task Flows Enable Interactive Reports**: Translytical task flows allow users to update records, add annotations, and trigger actions in external systems directly from Power BI reports, streamlining workflows and reducing the time between insight and action.
+* **Key Capabilities and Integrations**: Translytical task flows support adding, updating, and deleting data, as well as calling external APIs to trigger actions in other systems, with native connection management for Fabric SQL databases, warehouses, and lakehouses (for files).
+* **Technical Implementation**: Building translytical task flows involves storing data in a Fabric data source, developing a User Data Function to handle actions, creating a Power BI semantic model, and building a Power BI report with interactive elements to capture user input and call the function.
+* **Development and Deployment Tools**: Microsoft provides tools such as Copilot in Microsoft Fabric, GitHub Copilot in Visual Studio Code, and documentation to accelerate the development and deployment of translytical task flows, enabling organizations to quickly harness the power of interactive Power BI reports and streamline their workflows.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-25
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are four technical bullet points summarizing the Power BI April 2026 Feature Summary:
