@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-04-28
+* [Power BI April 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
+* [Translytical Task Flows (Generally Available)](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+* [Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future](https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/)
+* [Chat with Copilot inside a report on the Power BI mobile app (Preview)](https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/)
+* [TMDL View on the Web (Preview)](https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/)
+
+---
+
 ## 📅 Updates Pulled: 2026-04-27
 * [Power BI April 2026 Feature Summary](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
 * [Translytical Task Flows (Generally Available)](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
