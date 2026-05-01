@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-01
+### [Link](https://powerbi.microsoft.com/en-us/blog/)
+Here are 4 technical bullet points summarizing the Power BI April 2026 feature update:
+
+* **Enhanced Layout and Visual Capabilities**: The update introduces increased flexibility when working with layouts and visuals, allowing for more customized and interactive reports.
+* **Copilot Expansion**: The Copilot feature has been expanded, particularly on mobile devices, to provide more AI-driven capabilities and streamline workflows.
+* **Performance and Authoring Enhancements**: The release includes preview features that aim to improve performance and authoring workflows, making it easier to create and manage reports.
+* **Modeling and Reporting Improvements**: The update brings improvements to reporting and modeling capabilities, enabling more efficient and effective data analysis and visualization in Power BI.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/power-bi-april-2026-feature-summary/)
+Here are 4 technical bullet points summarizing the Power BI April 2026 feature summary for a professional:
+
+* **Enhanced Copilot experiences**: The Power BI mobile app now offers expanded Copilot features, including open-ended questions, follow-up conversations, and AI-generated visualizations, allowing for more in-depth analysis and exploration of reports on-the-go.
+* **Visual and layout improvements**: The update introduces modern visual defaults, customizable theme improvements, and fixed-size layouts for card, button slicer, and list slicer visuals, providing more flexibility and control over report design and layout.
+* **Modeling and performance enhancements**: The release includes preview features such as direct lake calculated columns and tables, user context-aware calculated columns, and DAX user-defined functions, which aim to improve performance, authoring workflows, and data modeling capabilities.
+* **Deprecation and compatibility updates**: The old file picker experience in Power BI Desktop is being deprecated, and the built-in Netezza ODBC driver is being replaced by a newer version, requiring customers to install the new ODBC driver to ensure a smooth transition and maintain compatibility with the latest features and updates.
+
+---
+### [Link](https://powerbi.microsoft.com/en-us/blog/translytical-task-flows-generally-available/)
+Here are 4 technical bullet points summarizing the Power BI blog on Translytical Task Flows:
+
+* **Translytical task flows enable interactive reports**: Users can update records, add annotations, and trigger actions in external systems directly from Power BI reports, leveraging Fabric User Data Functions to execute requested actions based on user interactions.
+* **Key capabilities include data manipulation and API integration**: Translytical task flows support adding, updating, and deleting data, as well as calling external APIs to trigger actions in other systems, such as requesting a discount approval that posts directly to Microsoft Teams.
+* **Scenarios for translytical task flows include data annotation, workflow automation, and AI-assisted decision making**: Field teams can correct data issues, business processes can be automated with approvals and notifications, and AI functions can be used to categorize or summarize data, all within the Power BI report interface.
+* **Implementation involves storing data in Fabric data sources, developing User Data Functions, and building Power BI reports with interactive elements**: Native connection management is available for Fabric SQL databases, warehouses, and lakehouses, and tools like Copilot in Microsoft Fabric and GitHub Copilot can accelerate the development process, enabling organizations to connect insight directly to execution and reduce the time between identifying opportunities and acting on them.
+
+---
+
+
 ## 🤖 AI Summary: 2026-04-30
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI April 2026 feature summary for a professional:
