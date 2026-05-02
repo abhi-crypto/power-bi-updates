@@ -1,5 +1,8 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-02
+
+
 ## 🤖 AI Summary: 2026-05-01
 ### [Link](https://powerbi.microsoft.com/en-us/blog/)
 Here are 4 technical bullet points summarizing the Power BI April 2026 feature update:
