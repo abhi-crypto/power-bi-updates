@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-09
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft is hosting a new Data Days event that will cover a wide range of topics, including Fabric, Power BI, SQL, AI, and more, providing a comprehensive learning experience for attendees.
+* The event is expected to be larger than previous ones, indicating a significant investment in community engagement and knowledge sharing among professionals in the data engineering, data science, and business intelligence fields.
+* Microsoft has announced a new SQL AI Developer certification (DP-800), allowing professionals to demonstrate their skills in SQL and AI development, and preparation materials are available for those looking to get certified.
+* The Power BI blog is part of a larger ecosystem of community resources, including forums, galleries, and learning modules, which provide opportunities for professionals to connect, share knowledge, and develop their skills in Power BI, data engineering, and related technologies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* The new Execute DAX Queries REST API (in preview) allows users to run DAX queries against Power BI semantic models and receive results in Apache Arrow IPC format, providing native data-type fidelity and support for large result sets without fixed row limits.
+* The API is available on Power BI Premium and Microsoft Fabric capacities, and requires the caller to be able to process binary Arrow streams, with libraries available for languages such as Python, C#, Java, and JavaScript to facilitate integration.
+* To get started with the API, users can utilize Fabric notebooks, which don't require explicit app registration for authentication, and can use a helper function to execute DAX queries and return a pandas DataFrame from Arrow IPC, promoting code reuse and simplifying maintenance.
+* The API can be used to execute multiple DAX EVALUATE statements in a single request, and the results can be persisted in a Delta table, with column names adhering to Delta table limitations and applying v-order compression for optimal read performance, making it suitable for use in Direct Lake models and other data analytics scenarios.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Semantic-model-settings-pane-Preview/ba-p/5177694)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI semantic model settings experience has been revamped with a redesigned settings pane, now available in preview, which provides a more modern and intuitive interface for managing semantic model settings, aligned with the Fabric platform's look and feel.
+* The new settings pane offers several improvements, including the ability to access settings without navigating away from the workspace, collapsible regions for related settings, and a search feature to quickly find specific settings, making it easier to manage complex semantic models with many settings.
+* The settings pane is being rolled out gradually, with the option to opt-in during the initial preview, and will eventually become the default experience, replacing the classic settings page, with the ability to switch back to the classic page during the transition period.
+* The updated settings pane includes over 30 semantic model settings sections, with plans for further consolidation and improvements to scheduled refresh and data connections experiences, and can be accessed by model owners or users with Write permission, with some settings restricted to the semantic model owner, such as scheduled refresh and data source credentials.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-08
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
