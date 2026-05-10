@@ -1,5 +1,32 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-10
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+It appears that the provided text is an error message and not a Power BI blog. However, I can suggest the following technical bullet points related to troubleshooting Power BI issues:
+
+* **Error analysis**: The error message "An unexpected error occured" is a generic message that does not provide specific information about the issue, and the code "e52cb41e65c6331b2c4fecc60447b0b1" may be a unique identifier for the error.
+* **Browser configuration**: The message "Please enable JavaScript to run this application" suggests that JavaScript is disabled in the browser, which is required for Power BI to function properly.
+* **Application troubleshooting**: To resolve the issue, users can try enabling JavaScript in their browser, clearing the browser cache, or checking for any browser extensions that may be interfering with Power BI.
+* **Log analysis**: The error code "e52cb41e65c6331b2c4fecc60447b0b1" can be used to investigate the issue further by checking the Power BI logs or contacting Microsoft support for more detailed analysis and troubleshooting.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+Unfortunately, the provided text does not contain any information about a Power BI blog. The text appears to be an error message. 
+
+If you could provide the actual text of the blog, I'd be happy to assist you in summarizing it in 4 technical bullet points.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Semantic-model-settings-pane-Preview/ba-p/5177694)
+It appears that the text you provided is an error message rather than a Power BI blog. However, I can provide some general technical information about Power BI in 4 bullet points:
+
+* Power BI is a business analytics service by Microsoft that allows users to create interactive visualizations and business intelligence reports.
+* The platform uses a data modeling framework to connect to various data sources, including Excel, SQL Server, and Azure, and provides data transformation and cleansing capabilities.
+* Power BI provides a range of visualization tools, including charts, tables, maps, and matrices, that can be used to create custom reports and dashboards.
+* The platform also includes advanced analytics capabilities, such as DAX formulas, power query, and machine learning integration, that allow users to perform complex data analysis and create predictive models.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-09
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are four technical bullet points summarizing the Power BI blog for a professional:
