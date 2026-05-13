@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-13
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft is announcing a new "Data Days" event, which will cover a wide range of topics including Fabric, Power BI, SQL, AI, and more, indicating a comprehensive approach to data analysis and management.
+* The event will provide opportunities for learning and professional development, potentially including insights into new features and updates to Power BI and related tools such as SQL and Data Factory.
+* The blog post mentions the availability of various community resources, including forums, galleries, and user groups, which can be useful for professionals looking to connect with others and stay up-to-date on the latest developments in Power BI and data analysis.
+* Additionally, the post references the new SQL AI Developer certification (DP-800), suggesting that Microsoft is investing in the development of skills and expertise in areas related to Power BI, such as SQL and AI, and that professionals may want to consider pursuing this certification to enhance their career prospects.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5180905)
+Here are 4 technical bullet points summarizing the Power BI May 2026 feature summary for a professional:
+
+* **Copilot and AI Enhancements**: The latest update introduces improvements to Copilot, including summary shortcuts, the ability to embed the Copilot Narrative visual in customer applications (in preview), and a new Copilot Tooling Format (in preview), allowing for more seamless AI-powered data exploration.
+* **Reporting and Visualization Updates**: This release brings several reporting and visualization enhancements, including visual calculations and custom totals, default format string locale for dates and numbers, and improvements to modern visual defaults, such as column fixed and default width for tables and matrices, all of which aim to make report building and data visualization more efficient and effective.
+* **Data Connectivity and Modeling**: The update introduces a new Get Data experience in Power BI Desktop (in preview), faster access to Web Modeling for Semantic Model authors, and improvements to data connectivity, including support for input slicer numeric columns, allowing users to connect to and model their data more easily and efficiently.
+* **New and Improved Visualizations**: The May update includes several new and updated visualizations, such as the Card with States, Financial Reporting Matrix, Lollipop Chart, and TMap 3.1, among others, which provide users with more options for creating interactive and engaging data visualizations to help communicate insights and drive business decisions.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The new Execute DAX Queries REST API (Preview) allows users to run DAX queries against Power BI semantic models and receive results in Apache Arrow IPC format, providing native data-type fidelity and support for columnar binary format.
+* The API is available on Power BI Premium and Microsoft Fabric capacities, and requires the caller to be able to process binary Arrow streams, with libraries available for languages such as Python, C#, Java, and JavaScript to facilitate integration.
+* To get started with the Execute DAX Queries API, users can utilize Fabric notebooks, which don't require explicit app registration for authentication, and can acquire an access token using the `notebookutils.credentials.getToken()` method.
+* The API can be used to execute DAX queries and return results as a pandas DataFrame, using a helper function that sends a POST request to the API endpoint with the query and authorization token, and then reads the response as an Arrow stream and converts it to a pandas DataFrame using the `pyarrow` library.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-12
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the blog for a professional:
