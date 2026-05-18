@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-18
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft is announcing a new Data Days event, which will cover a wide range of topics including Fabric, Power BI, SQL, AI, and more, providing a comprehensive learning opportunity for professionals.
+* The event will be a key platform for discussing the latest developments in data engineering, data science, data warehouse, and real-time intelligence, with potential insights into future product updates and releases.
+* Microsoft has introduced a new SQL AI Developer certification (DP-800), allowing professionals to demonstrate their expertise in SQL and AI, and providing a valuable credential for career advancement.
+* The Power BI Updates Blog and Fabric Updates Blog will continue to provide regular updates on new features, product enhancements, and best practices for using Power BI and other Microsoft data products, helping professionals stay up-to-date with the latest technologies and trends.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* The new Execute DAX Queries REST API (Preview) allows users to run DAX queries against Power BI semantic models and receive results in Apache Arrow IPC format, providing native data-type fidelity and no fixed row limits.
+* The API is only available on Power BI Premium and Microsoft Fabric capacities, and requires the caller to be able to process binary Arrow streams, with libraries available for languages such as Python, C#, Java, and JavaScript.
+* To get started with the API, users can acquire an access token using Fabric notebooks, which don't require explicit app registration in Microsoft Entra ID for authentication, and then define a helper function to execute DAX queries and return a pandas DataFrame from Arrow IPC.
+* The API can be used to execute multiple DAX EVALUATE statements in a single request, and the results can be persisted in a Delta table, with considerations for column name limitations and applying v-order compression for optimal read performance, such as when using the table in Direct Lake models.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Semantic-model-settings-pane-Preview/ba-p/5177694)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI semantic model settings experience has been refreshed with a new settings pane that aligns with the modern Fabric look and feel, allowing users to access settings without navigating away from their workspace.
+* The new settings pane features collapsible regions for related settings, a search function to quickly find specific settings, and the ability to close the pane by clicking outside of it, improving navigation and efficiency.
+* The settings pane is currently an opt-in experience, available by clicking the "Open settings pane >>" link at the top of the classic settings page, and will become the default experience in a few months, with the classic settings page being retired over time.
+* The new settings pane is part of a broader effort to improve the Power BI configuration experience, with planned changes to scheduled refresh and data connections experiences, and users can refer to the "Manage semantic model settings in the settings pane" documentation for more information on using the new pane.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-17
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
