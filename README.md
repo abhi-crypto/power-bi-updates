@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-05-19
+* [Execute DAX Queries REST API (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+* [Semantic model settings pane (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Semantic-model-settings-pane-Preview/ba-p/5177694)
+* [Power BI April 2026 Feature Summary](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-April-2026-Feature-Summary/ba-p/5173904)
+* [Translytical Task Flows (Generally Available)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Translytical-Task-Flows-Generally-Available/ba-p/5173907)
+* [Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Dataflows-Thank-you-for-eight-years-of-Gen1-and-why-Gen2-is-the/ba-p/5173910)
+
+---
+
 ## 📅 Updates Pulled: 2026-05-18
 * [Execute DAX Queries REST API (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
 * [Semantic model settings pane (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Semantic-model-settings-pane-Preview/ba-p/5177694)
