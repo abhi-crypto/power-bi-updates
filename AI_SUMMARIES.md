@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-20
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft is hosting a new Data Days event that will cover a wide range of topics including Fabric, Power BI, SQL, AI, and more, providing a comprehensive learning opportunity for professionals.
+* The event will likely feature discussions on data engineering, data warehousing, data science, and real-time intelligence, making it relevant to professionals working with Power BI and related technologies.
+* Microsoft has announced a new SQL AI Developer certification (DP-800), which professionals can prepare for and obtain to demonstrate their expertise in SQL and AI development.
+* The Power BI updates blog provides a wealth of information on the latest developments and features in Power BI, including tutorials, documentation, and community support, making it a valuable resource for professionals working with the platform.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Outbound-Access-Protection-for-semantic-models-Preview/ba-p/5184917)
+Here are four technical bullet points summarizing the Power BI blog on Outbound Access Protection for semantic models:
+
+* **Outbound Access Protection (OAP) for semantic models**: OAP is a workspace-level network security and governance feature that blocks outbound traffic from a workspace by default, allowing only explicitly trusted destinations, and can now be extended to semantic models, with support for reports coming in a separate announcement.
+* **Enforcement of OAP for semantic models**: Enforcement happens on the model's bound data connection, evaluating the connection itself against the workspace's outbound rules before any data moves, and applies to Power Query transformations, M expressions, dataset parameters, import refreshes, and DirectQuery queries.
+* **Configuration and automation of OAP**: OAP can be configured through the workspace settings, with a single toggle to turn on Block outbound public access, and can also be automated through the Fabric REST API, using the Workspaces - Set Network Communication Policy REST API to set outbound.publicAccessRules.defaultAction to Deny.
+* **Intra-workspace connections and exceptions**: The default OAP configuration blocks all data connections perceived as cross-workspace, including sources accessed through SQL, ADLS Gen2, and other non-Fabric connection kinds, requiring explicit exceptions to be added for local workspace connections, such as adding a new cloud connection rule to allow access to the source lakehouse.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* The new Execute DAX Queries REST API (preview) allows users to run DAX queries against Power BI semantic models and receive results in Apache Arrow IPC format, enabling native data-type fidelity and columnar binary format without fixed row limits.
+* The API is available on Power BI Premium and Microsoft Fabric capacities, and requires the caller to be able to process binary Arrow streams, with libraries available for languages such as Python, C#, Java, and JavaScript to facilitate integration.
+* To get started with the API, users can utilize Fabric notebooks, which don't require explicit app registration for authentication, and can use a helper function to execute DAX queries and return a pandas DataFrame from Arrow IPC, promoting code reuse and simplifying maintenance.
+* The API can be used to execute multiple DAX EVALUATE statements in a single request, and the results can be persisted in a Delta table, with considerations such as column name limitations and v-order compression to optimize read performance, especially when using the table in subsequent Direct Lake models.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-19
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
