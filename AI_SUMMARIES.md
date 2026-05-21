@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-21
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* A new Data Days event is upcoming, covering a wide range of topics including Fabric, Power BI, SQL, AI, and more, making it a comprehensive learning opportunity.
+* The event will delve into various aspects of data engineering, data warehousing, data science, and real-time intelligence, providing insights into the latest trends and technologies.
+* Microsoft has announced a new SQL AI Developer certification (DP-800), allowing professionals to enhance their skills and get certified in SQL and AI development.
+* The Power BI blog provides access to various learning resources, including tutorials, documentation, and certification offers, as well as a community forum for support and knowledge sharing among professionals.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129)
+Here are four technical bullet points summarizing the new Power Query experience in Power BI Desktop:
+
+* **Streamlined Data Source Discovery**: The new Power Query Get Data experience features a redesigned left-hand navigation pane that allows users to quickly find and select the right data source, with options such as Home, New, Recent, and OneLake Catalog for easy discovery of available connectors and data items.
+* **Simplified Connection Flows**: Connecting to data sources is now more cohesive, with a single-step process for configuring connection settings and authentication, reducing context switching between dialogs and making it easier to move from selecting a source to previewing and shaping data.
+* **Enhanced Accessibility and Usability**: The new experience is designed with usability and accessibility in mind, featuring full keyboard navigation support, enabling efficient interactions without relying on a mouse, and providing a more comfortable viewing experience in low-light environments.
+* **Modernized Interface and Workflow**: The new Power Query Get Data experience introduces a redesigned interface that helps users go from "no data" to loading and transforming data in a more streamlined flow with less friction, with features such as Blank Table and Blank Query providing faster entry points for manual data creation and custom M authoring.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174)
+Here are four technical bullet points summarizing the Power BI May 2026 Feature Summary for a professional:
+
+* **Copilot and AI Enhancements**: The latest Power BI update introduces improvements to Copilot, including summary shortcuts, the ability to embed the Copilot Narrative visual in customer applications (in preview), and a new Copilot Tooling Format (in preview).
+* **Reporting and Modeling Updates**: This release includes several reporting and modeling enhancements, such as visual calculations and custom totals (now generally available), default format string locale for dates and numbers, and translytical task flows with optional parameters and default values.
+* **Data Connectivity and Visualizations**: The update features a new Get Data experience in Power BI Desktop (in preview), as well as new and updated visualizations, including the Card with States, Financial Reporting Matrix, Lollipop Chart, TMap 3.1, Drill Down Timeline PRO, and Multiple Sparklines.
+* **Subscription and Collaboration Features**: The latest update also includes features such as subscriptions support for Power BI reports in org apps (in preview), version history in Power BI Desktop, and faster access to Web Modeling for Semantic Model authors, making it easier to collaborate and manage reports.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-20
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
