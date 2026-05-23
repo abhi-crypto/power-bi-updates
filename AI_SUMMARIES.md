@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-23
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft community is hosting a large-scale event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, covering topics such as Fabric, Power BI, SQL, and AI.
+* The event is expected to be highly popular, with the previous one selling out, and attendees can currently save €200 on registration using the code FABCMTY200.
+* Microsoft provides various community resources, including forums (e.g., Power BI forums, Data Engineering forums) and galleries (e.g., Power BI galleries, Data Science galleries), to facilitate knowledge sharing and collaboration among professionals.
+* The company also offers learning and career development opportunities, such as certification programs, tutorials, and documentation, to help professionals upskill and stay updated on the latest developments in Power BI, Fabric, and related technologies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Tenant Migration Types**: Power BI tenant migration can be categorized into three distinct scenarios: side-by-side (cross-tenant) migration, tenant split, and tenant remap, each with different risk, cost, and duration profiles.
+* **Triggers for Tenant Migration**: Common triggers for Power BI tenant migration include the need for data residency and sovereignty compliance, mergers and acquisitions, divestments, and the transition from Power BI Premium to Fabric SKUs, which often prompts a broader architectural review.
+* **Trade-offs and Risks**: Tenant migration is typically a trade-off between potential gains (e.g., improved data residency and sovereignty compliance) and added complexity, including the risk of data or artifact loss, end-user downtime, and increased costs due to maintaining licensing and capacity in both source and target tenants.
+* **Evaluation and Planning**: To determine if a tenant migration is the right choice, organizations should carefully evaluate the trade-offs and consider factors such as the type of migration required, the potential benefits, and the risks involved, using resources such as the official Microsoft Learn documentation on Power BI tenant migration patterns and strategies to inform their decision-making process.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* The new Power Query experience in Power BI Desktop (Preview) introduces a redesigned interface that streamlines the process of discovering and connecting to data sources, with a focus on faster discovery, simpler connection flows, and a more inclusive and accessible experience.
+* The new Get Data experience features a simplified left-hand navigation pane with easy access to commonly used entry points, a full catalog of available connectors, recent data sources, and OneLake Catalog for discovering accessible Fabric data items.
+* The experience also introduces enhancements such as the ability to easily choose preferred connectivity modes, faster entry points for manually creating and pasting data into a table (Blank Table) and custom M authoring and advanced query scenarios (Blank Query).
+* The new experience is designed with usability and accessibility in mind, featuring full keyboard navigation support, improved viewing experiences, and a more streamlined connection experience that reduces context switching between dialogs and allows for easier configuration of settings and authentication in one place.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-22
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
