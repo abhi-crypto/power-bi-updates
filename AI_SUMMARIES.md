@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-05-24
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI community is hosting a major event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, which will cover topics such as Fabric, Power BI, SQL, and AI.
+* The event is expected to be well-attended, as the last event sold out, and attendees can save €200 by using the code FABCMTY200 during registration.
+* Microsoft is providing various resources for Power BI users, including forums, galleries, and learning modules, to support community engagement and skill development.
+* The Power BI Updates Blog is a key resource for staying up-to-date on the latest developments and announcements in the Power BI ecosystem, including new events like the upcoming Data Days event, which will cover a range of topics related to data engineering, data science, and business intelligence.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Tenant Migration Triggers**: Power BI tenant migrations are often triggered by factors such as the availability of new regional data centers, the transition from Power BI Premium to Fabric SKUs, maturing data residency and sovereignty regulations, and corporate activities like mergers, acquisitions, and divestments.
+* **Migration Types and Risks**: There are three distinct types of Power BI tenant migration: side-by-side (cross-tenant) migration, tenant split, and tenant remap, each with varying risk, cost, and duration profiles. Understanding these differences is crucial to evaluating the trade-offs and potential risks associated with each migration type.
+* **Key Considerations for Tenant Migration**: When deciding whether to migrate a Power BI tenant, it's essential to weigh the potential gains against the added complexity. This includes considering factors such as latency, residency, and sovereignty requirements, as well as the potential impact on licensing, capacity, and end-user downtime.
+* **Pre-Migration Evaluation and Planning**: Before committing to a tenant migration, it's crucial to conduct a thorough evaluation of the potential benefits and trade-offs. This includes reviewing the official Microsoft Learn documentation on Power BI tenant migration patterns and strategies, assessing the risks and complexity associated with each migration type, and planning for the necessary resources, including licensing, capacity, and user migration.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129)
+Here are 4 technical bullet points summarizing the new Power Query experience in Power BI Desktop:
+
+* **Streamlined Data Source Discovery**: The new Power Query Get Data experience features a redesigned left-hand navigation pane with sections for "Home", "New", and "Recent" data sources, making it easier to find and select the right data source, including a full catalog of available connectors and the ability to search for specific connectors.
+* **Simplified Connection Flows**: The new experience introduces a more cohesive connection process, allowing users to configure connection settings and authentication in a single step, reducing context switching between dialogs and making it easier to move from selecting a source to previewing and shaping data.
+* **Enhanced Accessibility and Usability**: The new Power Query experience has been designed with accessibility in mind, including full keyboard navigation support, enabling more efficient interactions without relying on a mouse, and providing a more comfortable viewing experience.
+* **Integration with OneLake Catalog and Fabric**: The new Get Data experience enables discovery of accessible Fabric data items directly within the experience through the OneLake Catalog, allowing users to easily connect to and load data from various sources, including Fabric data sources, and providing a more integrated and streamlined workflow across Power BI and Fabric.
+
+---
+
+
 ## 🤖 AI Summary: 2026-05-23
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
