@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-02
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI community is hosting a significant event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, which will cover topics including Fabric, Power BI, SQL, and AI.
+* The event is expected to be well-attended, as the last similar event sold out, and attendees can save €200 by registering with the code FABCMTY200.
+* The Power BI community provides various resources, including forums, galleries, and blogs, to support users in their work with Power BI, Data Engineering, Data Warehouse, Data Science, and other related topics.
+* Microsoft offers learning and certification opportunities, as well as a career hub and support community, to help professionals develop their skills and stay up-to-date with the latest Power BI updates and features.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Tenant Migration Triggers**: Power BI tenant migrations are often triggered by factors such as the need for data residency, latency, or sovereignty, the transition from Power BI Premium to Fabric SKUs, maturing data residency and sovereignty regulations, and corporate activity like mergers, acquisitions, and divestments.
+* **Migration Types and Risks**: There are three distinct types of Power BI tenant migration: side-by-side (cross-tenant) migration, tenant split, and tenant remap, each with its own risk, cost, and duration profile. Side-by-side migration is considered to be the lowest-risk option, but it also requires maintaining licensing and capacity in both tenants, as well as planning M365 user and group migration.
+* **Evaluate Trade-Offs**: When considering a Power BI tenant migration, it's essential to evaluate the trade-offs between potential gains and added complexity. This includes weighing the benefits of migration, such as improved data residency or latency, against the potential risks, such as data or artifact loss, and the costs, including licensing and capacity maintenance.
+* **Pre-Migration Planning**: To ensure a successful Power BI tenant migration, it's crucial to plan carefully and consider factors such as the migration workflow, user and group migration, and artifact movement. This includes understanding the official Microsoft Learn documentation on Power BI tenant migration patterns and strategies, as well as assessing the organization's specific needs and requirements to determine the best approach for the migration.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129)
+Here are four technical bullet points summarizing the new Power Query experience in Power BI Desktop:
+
+* The new Power Query Get Data experience in Power BI Desktop introduces a redesigned interface built on three key principles: faster discovery of data sources, simpler connection flows, and a more inclusive and accessible experience, allowing users to quickly find and connect to their data.
+* The experience features a streamlined left-hand navigation pane with sections such as Home, New, and Recent data, providing easy access to commonly used entry points, a full catalog of available connectors, and previously used data sources, as well as integration with the OneLake Catalog for discovering accessible Fabric data items.
+* The new experience offers enhancements such as the ability to easily choose preferred connectivity modes, with options like Blank Table for manually creating and pasting data into a table, and Blank Query for custom M authoring and advanced query scenarios, streamlining the data connection and shaping process.
+* The redesigned interface prioritizes usability and accessibility, with features including full keyboard navigation support, dark mode support, and a more streamlined connection experience that reduces context switching between dialogs, allowing users to configure settings and authentication in one place and move more efficiently through the data workflow.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-01
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
