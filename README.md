@@ -1,5 +1,13 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-06-02
+* [Power BI Tenant Migration: Trade-offs, risks, and realities](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013)
+* [New Power Query experience in Power BI Desktop (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129)
+* [Power BI May 2026 Feature Summary](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-May-2026-Feature-Summary/ba-p/5182174)
+* [Execute DAX Queries REST API (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Execute-DAX-Queries-REST-API-Preview/ba-p/5177697)
+
+---
+
 ## 📅 Updates Pulled: 2026-06-01
 * [Power BI Tenant Migration: Trade-offs, risks, and realities](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Tenant-Migration-Trade-offs-risks-and-realities/ba-p/5187013)
 * [New Power Query experience in Power BI Desktop (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/New-Power-Query-experience-in-Power-BI-Desktop-Preview/ba-p/5181129)
