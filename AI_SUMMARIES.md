@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-03
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI community is hosting a major event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, which will cover topics such as Fabric, Power BI, SQL, and AI.
+* The event is expected to be highly popular, as the last one sold out, and attendees can save €200 by registering with the code FABCMTY200.
+* Microsoft is providing various resources for the Power BI community, including forums, galleries, and learning modules, to facilitate knowledge sharing and skill development.
+* The Power BI Updates Blog is a key platform for staying up-to-date with the latest developments and news in the Power BI ecosystem, including upcoming events like the new Data Days event, which promises to be bigger than ever and cover a range of topics related to data and analytics.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Agent Skills for Power BI (Preview)**: This new capability allows developers to prompt an AI agent to build and refine semantic models and reports using natural language prompts, reducing the time it takes to go from raw data to a polished analytics solution.
+* **Fabric Apps for Semantic Models (Preview)**: This feature introduces an AI-first approach to building custom web apps, with Microsoft Fabric serving as the backend and powered by the open-source Rayfin SDK, enabling the creation of rich, data-driven experiences in Fabric.
+* **End-to-end Agentic Development Workflow**: The Agent Skills for Power BI feature brings a true end-to-end agentic development workflow, allowing AI agents to interact with Power BI's semantic layer, construct semantic models, generate report pages, and iterate on visuals, aligning to design best practices.
+* **AI-Generated Applications**: The combination of Agent Skills for Power BI and Fabric Apps for Semantic Models enables the creation of AI-generated applications, which can collapse the cost and complexity of building applications, and unlock the ability to generate nearly anything that can be described, with full control over UI, business logic, and integrations with external systems via APIs.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-at-Microsoft-Build-2026-The-Agentic-Era-of-analytics/ba-p/5191671)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Agent Skills for Power BI**: A new preview feature that enables end-to-end agentic development, allowing users to describe their needs to an AI agent, which can then create models, generate reports, and iterate on visuals, all in one workflow, leveraging a well-curated semantic model to ensure trustworthy analytics.
+* **Fabric Apps**: A new AI-first way to build custom web apps with Microsoft Fabric as the backend, allowing developers and AI coding agents to build enterprise-grade data apps directly on semantic models, with features like persona-specific views, custom calendar interfaces, and bespoke business logic.
+* **Semantic Models**: The foundation of Power BI's agentic analytics, providing business logic that ensures trustworthy analytics, and enabling agents to create models, generate reports, and iterate on visuals, with measures, relationships, hierarchies, and definitions that reflect how an organization works.
+* **Org Apps**: A feature that enables the distribution of analytics at scale, with a polished, stable, and customized experience, allowing organizations to create and deploy operational data apps that leverage the same trusted business logic and governance as the rest of their analytics stack, with general availability announced in the coming weeks.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-02
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
