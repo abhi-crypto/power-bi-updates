@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-05
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI community is hosting a major event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, covering topics such as Fabric, Power BI, SQL, and AI.
+* The event is expected to be highly popular, with the previous event selling out, and attendees can save €200 by registering with the code FABCMTY200.
+* The Power BI community provides various resources, including forums, galleries, and learning modules, to support users in their data engineering, data science, and data visualization efforts.
+* Microsoft is planning to launch a new Data Days event, which will cover a range of topics, including Fabric, Power BI, SQL, and AI, and will be larger in scale than previous events, offering opportunities for professionals to learn and network.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Copilot in Web Modeling (Preview)**: An AI-powered assistant is being introduced in the Power BI service, allowing users to analyze and improve semantic models using natural language, reducing manual editing time and effort.
+* **Model Analysis and Improvement**: Copilot can analyze models, identify areas for improvement (e.g., inconsistent naming, unclear structure), and suggest updates, including renaming tables and columns, creating relationships, and generating DAX measures.
+* **Controlled Changes and Permissions**: Copilot respects existing Power BI permissions, allowing Admins, Members, and Contributors to make changes to the active model, with a restore checkpoint created automatically to easily revert changes if needed, using semantic version history.
+* **Future Enhancements and Integration**: Upcoming enhancements will expand Copilot's capabilities to prepare models for richer AI experiences, including defining clear AI instructions and refining data schema to support better natural language experiences, further integrating AI and machine learning into Power BI modeling.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Agent Skills for Power BI (Preview)**: This new capability allows AI agents to build and refine semantic models and reports in Power BI using natural language prompts, enabling a faster path from raw data to a polished analytics solution.
+* **Fabric Apps for Semantic Models (Preview)**: Fabric Apps introduce an AI-first approach to building custom web apps on semantic models, powered by Microsoft Fabric and the open-source Rayfin SDK, allowing for the generation of rich data experiences with a new level of ease and streamlined workflow.
+* **AI-Driven Development Workflow**: The combination of Agent Skills for Power BI and Fabric Apps enables a true end-to-end agentic development workflow, where AI agents can construct semantic models, generate report pages, and iterate on visuals, aligning to design best practices, and more, using Power BI Projects (PBIP).
+* **Streamlined Application Development**: The rise of AI-generated applications in Power BI and Fabric collapses the cost and complexity of building applications, allowing for the generation of custom web apps with full control over UI, business logic, and integrations with external systems via APIs, making it easier to build operational apps directly on governed analytics data with a consumer-grade polish.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-04
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
