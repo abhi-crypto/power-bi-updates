@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-06
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI community is hosting a major event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, covering topics such as Fabric, Power BI, SQL, and AI.
+* Microsoft is offering a discount of €200 for registrations made with the code FABCMTY200, and the event is expected to be highly popular based on the sell-out of the previous event.
+* The Power BI blog is part of a larger community platform that includes forums, galleries, and learning resources for various data-related topics, such as Data Engineering, Data Warehouse, Data Science, and Data Factory.
+* Professionals can engage with the community through various channels, including user groups, events, and online forums, and can also access learning resources such as tutorials, documentation, and certification offers to enhance their skills in Power BI and related technologies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287)
+Here are 4 technical bullet points summarizing the Power BI blog on Copilot in web modeling (Preview):
+
+* **AI-powered modeling assistance**: Copilot in web modeling (Preview) is an AI-powered assistant that helps analyze and improve semantic models using natural language, enabling users to spend less time on manual edits and focus on higher-level tasks.
+* **Conversational model refinement**: Copilot works directly in the model authoring experience, allowing users to explore and refine their models conversationally, and can suggest improvements and apply updates on their behalf, including renaming tables and columns, creating relationships, and generating DAX measures.
+* **Safe and controlled changes**: Copilot respects existing Power BI permissions, and admins, members, and contributors can use Copilot to make changes to the active model, with a restore checkpoint created automatically to easily revert the model if needed, using semantic version history.
+* **Future enhancements and integration**: Upcoming enhancements to Copilot will help improve AI readiness by defining clear AI instructions and refining data schema to support better natural language experiences, enabling users to prepare models for richer AI experiences and further leverage the capabilities of Power BI and Microsoft Fabric.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Agent Skills for Power BI (Preview)**: This new capability allows developers to prompt an AI agent to build and refine semantic models and reports using natural language prompts, enabling a faster path from raw data to a production-ready report and streamlining the development process for new and existing reports.
+* **Fabric Apps for Semantic Models (Preview)**: This feature introduces an AI-first approach to building custom web apps, powered by Microsoft Fabric and the open-source Rayfin SDK, allowing developers to generate rich data experiences with a new class of semantic model-based apps that can be built with minimal coding effort.
+* **End-to-End Agentic Development Workflow**: The combination of Agent Skills for Power BI and Fabric Apps enables a true end-to-end agentic development workflow, where AI agents can handle the development of semantic models, reports, and web apps, accelerating the time it takes to go from raw data to a polished analytics solution using natural language prompts.
+* **AI-Generated Applications**: The rise of AI-generated applications in Power BI and Fabric enables the creation of custom web apps with minimal coding effort, unlocking the ability to generate nearly anything that can be described, with full control over UI, business logic, and integrations with external systems via APIs, and extending beyond consumer scenarios to operational apps for enterprises.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-05
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are four technical bullet points summarizing the Power BI blog for a professional:
