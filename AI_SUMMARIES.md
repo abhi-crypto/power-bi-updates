@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-08
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI community is hosting a major event, FabCon and SQLCon, in Barcelona from September 28 to October 1, 2026, which will cover topics such as Fabric, Power BI, SQL, and AI.
+* The event is expected to be highly popular, with the previous event selling out, and attendees can currently save €200 by registering with the code FABCMTY200.
+* Microsoft is providing various resources for Power BI users, including forums, galleries, and learning modules, to help them stay up-to-date with the latest developments and best practices.
+* The Power BI community is actively engaged, with opportunities for users to submit ideas, vote on upcoming features, and participate in user groups, events, and certification programs to enhance their skills and career prospects.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Copilot-in-web-modeling-Preview/ba-p/5182287)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* **Copilot in Web Modeling (Preview)**: An AI-powered assistant is being introduced in the Power BI service, allowing users to analyze and improve their semantic models using natural language, reducing the need for manual edits and enabling more efficient model refinement.
+* **Model Analysis and Improvement**: Copilot can analyze models, identify areas for improvement (e.g., inconsistent naming or unclear structure), and suggest updates, including renaming tables and columns, creating relationships, and generating DAX measures, all while respecting existing Power BI permissions.
+* **Safe and Controlled Changes**: To ensure model integrity, Copilot creates a restore checkpoint automatically and requires user permission before making any changes, allowing for easy reversion to a previous model state if needed, utilizing semantic version history.
+* **Future Enhancements and Expansion**: The Copilot feature is expected to continue expanding its capabilities to support richer AI experiences, including defining clear AI instructions and refining data schemas to enable better natural language experiences, with upcoming enhancements focused on improving AI readiness.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Building-in-the-Agentic-Era-with-Power-BI-and-Fabric/ba-p/5190754)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Agent Skills for Power BI (Preview)**: This new capability allows AI agents to build and refine semantic models and reports in Power BI using natural language prompts, enabling a faster path from raw data to a polished analytics solution.
+* **Fabric Apps for Semantic Models (Preview)**: This feature introduces an AI-first approach to building custom web apps, powered by Microsoft Fabric and the open-source Rayfin SDK, allowing for the generation of rich, data-driven experiences with minimal coding required.
+* **End-to-end Agentic Development Workflow**: The combination of Agent Skills for Power BI and Fabric Apps enables a seamless, end-to-end development workflow, where AI agents can build and deploy entire analytics solutions, from semantic models to web apps, using natural language prompts or specifications.
+* **Accelerated Time-to-Insight**: These new capabilities are expected to significantly reduce the time it takes to go from raw data to a polished analytics solution, allowing developers to focus on higher-level tasks and enabling organizations to make data-driven decisions faster, with the potential to generate nearly any type of application that can be described using AI coding agents.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-07
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the blog for a professional:
