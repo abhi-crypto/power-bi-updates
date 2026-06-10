@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-10
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The upcoming Data Days event will cover a wide range of topics, including Fabric, Power BI, SQL, AI, and more, providing a comprehensive learning experience for attendees.
+* The event will offer opportunities to learn from experts and engage with the community, with various forums and galleries available, such as Power BI forums, Data Engineering forums, and Data Science galleries.
+* Microsoft is offering free Fabric certification during the AI Skills Fest, which is available for a limited time, allowing professionals to enhance their skills and knowledge in Fabric and AI.
+* The Power BI updates blog provides a wealth of information and resources for professionals, including learning modules, tutorials, documentation, and community support, to help them stay up-to-date with the latest developments and best practices in Power BI and related technologies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-June-2026-Feature-Summary/ba-p/5193264)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **New AI-driven experiences**: Power BI is introducing new AI-driven features, including Fabric Apps for Semantic Models (Preview), Copilot in Web Modeling (Preview), and AI-Powered Power BI reporting, which aim to simplify report building, data modeling, and analysis.
+* **Enhanced reporting capabilities**: The update includes several reporting enhancements, such as shape maps (Generally Available), date pickers for slicers (Preview), auto-expand options for matrix row and column headers (Generally Available), and scatter chart improvements, which can help reduce repetitive work and improve data visualization.
+* **Modeling and DAX updates**: The update includes new features for data modeling, such as DAX user-defined functions (Generally Available) and DAX query view results grid with filtering and sorting (Generally Available), which can improve data analysis and modeling capabilities.
+* **Developer and API updates**: The update includes new features for developers, such as the Power BI Enhanced Report Format (PBIR) default-on update, New Desktop Bridge (Preview), and support for third-party visualizations, which can improve the integration of Power BI with other tools and platforms.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/AI-Powered-Power-BI-reporting-From-design-to-deployment-with/ba-p/5190703)
+Here are 4 technical bullet points summarizing the Power BI blog on AI-Powered Power BI reporting:
+
+* The Power BI Authoring plugin, available through the Skills for Fabric marketplace, enables AI agents to automate report creation in Power BI, from designing pages to publishing to Fabric, using natural language inputs and schema-correct PBIR files.
+* The `powerbi-report-authoring` skill allows agents to create reports from scratch, modify existing reports, and modernize poorly designed reports using the latest design principles, with capabilities including adding slicers, tables, and logos, and formatting report themes based on reference images.
+* The Power BI Authoring plugin can be installed using the GitHub Copilot CLI, and integrates with the Modeling MCP server and semantic model authoring skill, enabling the creation of semantic models and reports over them using natural language prompts.
+* The AI-Powered Power BI reporting capability supports iterative refinement of reports, allowing agents to capture screenshots, reload Power BI Desktop, and make updates to reports based on user feedback, enabling a seamless end-to-end authoring experience for Power BI reports.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-09
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
