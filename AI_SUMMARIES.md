@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-16
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI platform is offering free certification opportunities for professionals who join the Fabric Data Days 2026 event, which covers topics such as Power BI, SQL, AI, and data engineering.
+* The Fabric Data Days 2026 event provides a comprehensive learning experience, with over 60 days of training sessions, challenges, and networking opportunities for data professionals.
+* The Power BI blog is part of a larger community platform that includes various forums, galleries, and resources for data professionals, such as the Power BI forums, Data Engineering forums, and Data Science forums.
+* The Microsoft Power BI platform is integrated with other Microsoft tools and services, including Azure Data Community, Fabric platform, and SQL, providing a robust ecosystem for data professionals to learn, share, and develop their skills.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366)
+Here are 4 technical bullet points summarizing the blog post on simplified Oracle connectivity in Power BI:
+
+* **Bundled Oracle Managed ODP.NET provider**: Power BI Desktop now includes a bundled Oracle Managed ODP.NET provider, eliminating the need for extra provider installations and data gateway deployment for cloud-hosted Oracle databases.
+* **Direct cloud connections**: The Power BI service supports direct cloud connections to Oracle data sources, such as Oracle Autonomous Database, without the need for a data gateway, allowing for simplified connectivity and reduced infrastructure requirements.
+* **Configuration and compatibility**: The new preview capabilities support Oracle Database 12c (12.1.0.2) and later, as well as all versions of Oracle Autonomous Database, and can be configured in Power BI Desktop and the Power BI service using the existing Oracle database connector.
+* **Gateway upgrades and considerations**: Personal data gateways are no longer supported for Oracle connections, and users should upgrade to an enterprise on-premises data gateway or virtual network (VNET) gateway, or shift to direct cloud connections, to ensure continued connectivity and support for single sign-on and other features.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Power BI and Fabric are transitioning from embedded ODBC drivers to Apache Arrow Database Connectivity (ADBC) drivers for several connectors, including Databricks, Dremio, Google BigQuery, Hive, Impala, Snowflake, and Spark, with the goal of eventually removing ODBC drivers from service starting in September 2026.
+* Users will be impacted if they use any of the affected connectors and have not explicitly specified an implementation for the connection, or if their organization wants centralized control over whether ADBC or ODBC is used by default, with options for per-connection opt-in, tenant setting, or workspace override to control the migration.
+* To migrate, users can opt-in to ADBC by adding `Implementation="2.0"` to supported connections, set the organization's default using the Admin portal setting, or override the default at the workspace level, with ADBC used when `Implementation="2.0"` or not specified and the workspace setting is On, and ODBC used when `Implementation="1.0"` or not specified and the workspace setting is Off.
+* To prepare for the transition, users should start by selecting a pilot workspace and enabling ADBC to validate key datasets and refresh scenarios, opt-in per-connection for critical connections, and then decide whether to enable ADBC by default at the tenant level, with the option to use a Gateway to continue executions using ODBC if required, but noting that ODBC drivers will no longer ship with Power BI Desktop or Gateway.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-15
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
