@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-17
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI blog announces the availability of free certification opportunities for Fabric, SQL, and other essential data skills through the Fabric Data Days 2026 event.
+* The event offers 60+ days of learning, challenges, and connection, providing a comprehensive platform for professionals to enhance their data skills and knowledge.
+* The blog also highlights various community forums, including Power BI, Data Engineering, Data Warehouse, and Data Science, where professionals can engage with peers, share ideas, and stay updated on the latest developments.
+* Additionally, the blog provides access to learning resources, such as tutorials, documentation, and certification offers, as well as career development opportunities through the Career Hub and learn forum, to support professionals in their career growth and advancement.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326)
+Here are 4 technical bullet points summarizing the Power BI blog on org apps with audiences:
+
+* **Org Apps with Audiences**: Power BI and Fabric now support org apps with audiences, allowing administrators to curate and distribute reporting at scale across the organization while securely and efficiently building app experiences tailored to specific user groups.
+* **Audience Management**: The new feature enables administrators to define multiple audiences within an org app, control what each audience sees, and deliver unique navigation and content experiences while keeping everything governed from a single app surface.
+* **Streamlined User Assignment**: When sharing an org app, administrators can now add users and select their audiences directly from the share experience, eliminating the need to manage access audience by audience in a separate publishing or update flow.
+* **Customizable Navigation**: Audiences in org apps can be used to shape the navigation structure, allowing administrators to define a single navigation structure for the org app and then control what each audience sees within that structure, providing a tailored experience for each user group.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Simplified Oracle connectivity**: Power BI Desktop now includes a bundled Oracle Managed ODP.NET provider, and the Power BI service supports direct cloud connections to Oracle data sources without the need for a data gateway, simplifying the connection process.
+* **Enabling the bundled provider**: To use the bundled Oracle Managed ODP.NET provider in Power BI Desktop, users must enable two preview features: "Enable using Bundled Oracle Managed ODP Provider for Import Mode" and "Enable using Bundled Oracle Managed ODP Provider for DirectQuery Mode" under File > Options and settings > Options > Preview features.
+* **Cloud connection configuration**: To create a cloud connection to Oracle Autonomous Database or other Oracle cloud endpoints, users can go to Settings > Manage connections and gateways, select New connection, and choose Oracle as the connection type, entering the Oracle cloud server name, database name, and authentication credentials.
+* **Gateway upgrades and considerations**: Personal gateways are no longer supported for connecting to on-premises Oracle data sources, and users must upgrade to an enterprise on-premises data gateway or virtual network (VNET) gateway, or shift their cloud Oracle workloads to direct cloud connections; the enterprise data gateway provides a supported path for on-premises Oracle databases and single sign-on scenarios.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-16
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
