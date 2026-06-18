@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-18
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The blog announces the availability of free certification in Fabric, Power BI, SQL, AI, and other essential data skills for attendees of Fabric Data Days 2026, a 60+ day learning event.
+* The event provides opportunities for professionals to dive into various data skills, including data engineering, data warehouse, data science, and real-time intelligence, through a range of learning resources and community forums.
+* The blog also highlights the availability of various community resources, including Power BI forums, Data Engineering forums, and Data Science forums, where professionals can connect with others, share knowledge, and stay updated on industry trends.
+* Additionally, the blog mentions the availability of learning modules, tutorials, documentation, and support resources, including a career hub and learn forum, to help professionals develop their skills and advance their careers in the field of data analytics and business intelligence.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Workspace Outbound Access Protection (OAP) for Power BI reports**: OAP is a workspace-level control that constrains where data inside a workspace can flow, and now supports Power BI reports, allowing admins to guarantee that reports in a regulated or sensitive workspace only consume data governed by that workspace's rules.
+* **OAP enforces a single rule for Power BI reports**: A report in a protected workspace can only bind to a semantic model in the same workspace, blocking cross-workspace bindings, with no allow list or exception mechanism, and downstream protection flowing through the semantic model.
+* **Scope and limitations of OAP for Power BI reports**: Most Power BI report features render or execute in the user's browser, falling outside the OAP scope, and features like custom visuals, map visuals, and report exports are client-side, requiring separate restrictions using Power BI tenant or workspace-level settings or blocking connections on client machines or networks.
+* **Implications for report authors and admins**: There's no need to configure anything new on the report itself, as protection comes from a single, well-defined rule that the workspace enforces automatically, but admins may need to disable certain features like Export reports as PowerPoint presentations or PDF documents and Email Subscriptions in Power BI tenant settings to block all possible connections to external endpoints.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Org Apps with Audiences**: Power BI now offers general availability of org apps with audiences, allowing users to curate and distribute reporting at scale across their organization while securely and efficiently building app experiences tailored to specific audiences.
+* **Audience Control and Navigation**: Org apps with audiences enable users to define multiple audiences within an app, control what each audience sees, and deliver unique navigation and content experiences, all governed from a single app surface, allowing for flexible and customized reporting experiences.
+* **Sharing and Assignment**: Users can now assign users to audiences when sharing an org app, selecting their audiences directly from the share experience, eliminating the need to manage access audience by audience in a separate publishing/update flow, streamlining the sharing process.
+* **Customized Experiences**: Org apps with audiences support multiple approaches to shaping experiences, including creating multiple org apps per workspace, creating a single org app with audiences, or combining both approaches, allowing users to design and share experiences that fit each unique need or context in their organization, such as sales, executive, or frontline teams.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-17
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
