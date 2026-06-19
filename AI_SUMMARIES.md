@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-19
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI community is offering free certification in Fabric, SQL, and other essential data skills for attendees of the Fabric Data Days 2026 event.
+* The event provides 60+ days of learning opportunities, challenges, and connections for professionals to enhance their data engineering, data science, and business intelligence skills.
+* The Power BI blog provides access to various community forums, including Data Engineering, Data Warehouse, Data Science, and Real-Time Intelligence, where professionals can discuss and share knowledge on the latest trends and technologies.
+* The blog also offers resources such as tutorials, documentation, and certification modules to support professionals in their career development and learning goals, including the Career Hub and Learn Modules.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
+Here are four technical bullet points summarizing the Power BI blog on Microsoft Entra ID single sign-on for the Starburst connector:
+
+* The Starburst secured by Entra ID connector supports both Import and DirectQuery semantic models through the on-premises data gateway, with Entra ID SSO only applicable for DirectQuery mode, enabling row-level and column-level security rules to be evaluated against the actual end user.
+* To enable Entra ID SSO for Starburst, two tenant-level settings are required: `Enable Starburst SSO` and `Microsoft Entra single sign-on for data gateway`, both of which can be found in the Power BI admin portal and require tenant admin rights.
+* The Starburst data source must be configured to select `Use SSO via Azure AD for DirectQuery queries`, allowing each user's Entra ID token to be forwarded to Starburst for validation and subsequent application of Starburst's authorization policies.
+* The use of Entra ID SSO with the Starburst connector is recommended when Starburst's data access policies need to be applied to report users in DirectQuery mode, or when audit or compliance rules prohibit using a single connection credential for all users, and existing reports using the original Starburst connector can continue to function without migration.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
+Here are 4 technical bullet points summarizing the Power BI blog post on Workspace Outbound Access Protection (OAP) for Power BI reports:
+
+* **OAP for Power BI reports**: Workspace outbound access protection (OAP) is now available in preview for Power BI reports, allowing workspace admins to constrain where data inside a workspace can flow, with no additional configuration required on the report itself.
+* **Enforced rule**: OAP enforces a single rule for Power BI reports: a report in a protected workspace can only bind to a semantic model in the same workspace, blocking cross-workspace bindings and ensuring that reports only consume data governed by the workspace's rules.
+* **Scope and limitations**: OAP scope only applies to report features that execute within the Fabric service, while features that render or execute in the user's browser (e.g. custom visuals, map visuals, R and Python visuals) fall outside OAP scope and require separate controls (e.g. Power BI tenant or workspace-level settings, client-side blocking).
+* **Special cases and exceptions**: Certain features, such as Subscriptions and Export as PDF, are rendered in the service and are not controlled by OAP; to block these features, admins must disable them in Power BI tenant settings, as there is no way to disable them for individual workspaces only.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-18
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
