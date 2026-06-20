@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-06-20
+* [Microsoft Entra ID single sign-on for the Starburst connector in Power BI (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
+* [Workspace outbound access protection for Power BI reports (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
+* [Org apps with audiences for Power BI and Fabric (Generally Available)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326)
+* [Simplified Oracle connectivity in Power BI (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Simplified-Oracle-connectivity-in-Power-BI-Preview/ba-p/5193366)
+* [Migrating from embedded ODBC drivers to ADBC in Power BI and Fabric](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Migrating-from-embedded-ODBC-drivers-to-ADBC-in-Power-BI-and/ba-p/5195167)
+
+---
+
 ## 📅 Updates Pulled: 2026-06-19
 * [Microsoft Entra ID single sign-on for the Starburst connector in Power BI (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
 * [Workspace outbound access protection for Power BI reports (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
