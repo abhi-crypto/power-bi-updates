@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-20
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI blog announces the opportunity to get certified for free in Fabric, Power BI, SQL, AI, and other essential data skills by joining Fabric Data Days 2026, a 60+ day event focused on learning, challenges, and connection.
+* The blog provides access to various community forums, including Power BI, Data Engineering, Data Warehouse, Data Science, and more, where professionals can engage with others, share knowledge, and get support.
+* The blog highlights the availability of learning resources, including tutorials, documentation, and certification offers, to help professionals upskill and reskill in areas like Power BI, Fabric, and Azure Data.
+* The blog also invites professionals to participate in the Power BI community by submitting ideas, voting on suggestions, and joining user groups, as well as attending events and becoming a Super User to contribute to the community's growth and development.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Microsoft Entra ID single sign-on (SSO) for Starburst connector**: The new Starburst secured by Entra ID connector in Power BI allows report viewers to authenticate to Starburst with their own Entra ID identity, enabling row-level and column-level security rules to be evaluated against the actual end user rather than a fixed connection account.
+* **Connector configuration and setup**: To enable Entra ID SSO for Starburst, two tenant-level settings must be configured in the Power BI admin portal: "Enable Starburst SSO" and "Microsoft Entra single sign-on for data gateway", followed by selecting "Use SSO via Azure AD for DirectQuery queries" in the Starburst data source configuration.
+* **DirectQuery mode and on-premises data gateway support**: The Starburst secured by Entra ID connector supports both Import and DirectQuery semantic models through the on-premises data gateway, with Entra ID SSO only relevant for DirectQuery mode, where the user's Entra ID token is forwarded to Starburst for validation and authorization.
+* **Use cases and migration**: Entra ID SSO for Starburst is recommended when data access policies need to apply to individual report users, or when audit/compliance rules prohibit using a single connection credential for all users, and existing reports using the original Starburst connector can continue to function without migration unless Entra ID SSO is required.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
+Here are 4 technical bullet points summarizing the Power BI blog on Workspace Outbound Access Protection (OAP) for Power BI reports:
+
+* **OAP Enforcement**: Workspace Outbound Access Protection (OAP) for Power BI reports enforces a single rule, where a report in a protected workspace can only bind to a semantic model within the same workspace, blocking cross-workspace bindings.
+* **Downstream Protection**: The semantic model used by the report is still subject to OAP enforcement, ensuring that any data connections to cloud databases, on-premises sources, or Fabric lakehouses/warehouses are evaluated against the workspace's data connection rules.
+* **Scope and Limitations**: OAP scope does not include client-side report features, such as custom visuals, map visuals, or report exports, which require separate controls, such as Power BI tenant or workspace-level settings, or blocking connections on client machines or local networks.
+* **Exceptions and Edge Cases**: Certain features, like Subscriptions and Export as PDF, are rendered in the service and are not controlled by OAP; to block these, administrators must disable them in Power BI tenant settings, as there is no way to disable them for individual workspaces only.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-19
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
