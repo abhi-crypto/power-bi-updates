@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-21
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI blog announces the availability of free certification opportunities for Fabric and SQL when joining Fabric Data Days 2026, which covers essential data skills including Power BI, AI, and more.
+* The blog provides access to various community forums, including Power BI, Data Engineering, Data Warehouse, and Data Science, where professionals can connect, share knowledge, and get support.
+* The blog offers resources for learning and professional development, including tutorials, documentation, and certification offers, as well as a career hub and learn forum for career advancement.
+* The blog also features updates on Power BI and Fabric, including new features, releases, and community news, and provides opportunities for professionals to submit ideas, vote on features, and participate in user groups and events.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Microsoft Entra ID Single Sign-On (SSO) for Starburst**: The Starburst connector in Power BI now supports Microsoft Entra ID SSO in preview, allowing report viewers to authenticate to Starburst with their own Entra ID identity and enabling Starburst's access policies, including row-level and column-level security rules, to be evaluated against the actual end user.
+* **Connector Configuration**: Two Starburst connectors are available in Power BI: the original Starburst connector and the new Starburst secured by Entra ID connector, which supports Entra ID SSO for DirectQuery mode; the new connector requires configuration of two tenant-level settings and one setting in the data connector configuration.
+* **Enabling Entra ID SSO**: To enable Entra ID SSO for Starburst, two tenant-level settings must be enabled in the Power BI admin portal: "Enable Starburst SSO" and "Microsoft Entra single sign-on for data gateway"; then, the "Use SSO via Azure AD for DirectQuery queries" checkbox must be selected in the Starburst data source configuration.
+* **Use Cases and Benefits**: Entra ID SSO for Starburst is recommended when Starburst's data access policies need to apply to report users in DirectQuery mode, or when audit or compliance rules prohibit using a single connection credential for all users; it provides an additional layer of security and authentication, allowing for more fine-grained control over data access and enabling end-to-end identity flow.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
+Here are 4 technical bullet points summarizing the Power BI blog post on Workspace Outbound Access Protection (OAP) for Power BI reports:
+
+* **OAP for Power BI reports**: Workspace outbound access protection (OAP) is a workspace-level control that constrains where data inside a workspace can flow, and now extends to Power BI reports, allowing workspace admins to guarantee that reports in a regulated or sensitive workspace only consume data governed by that workspace's rules.
+* **Binding rules**: OAP enforces a single rule for Power BI reports: a report in a protected workspace can only bind to a semantic model in the same workspace, blocking cross-workspace bindings and inheriting the data boundary through its binding to the semantic model.
+* **Scope and limitations**: OAP scope does not include client-side report features such as custom visuals, map visuals, R and Python visuals, and report exports, which require separate Power BI tenant or workspace-level settings or network environment controls to restrict external connections.
+* **Special cases and exceptions**: Subscriptions and Export as PDF are special cases where the report is rendered in the service during processing, and OAP is not applicable; to control these features, disable Export reports as PowerPoint presentations or PDF documents and Email Subscriptions in Power BI tenant settings, as there is no way to disable email subscriptions for individual workspaces only.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-20
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
