@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-23
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI community is offering free certification opportunities in Fabric, SQL, and other essential data skills through the Fabric Data Days 2026 event, which features 60+ days of learning, challenges, and connection.
+* The Power BI platform is integrated with various other Microsoft services, including Data Engineering, Data Warehouse, Data Science, Data Factory, and Real-Time Intelligence, providing a comprehensive data analytics ecosystem.
+* The blog provides access to various community resources, including forums, galleries, and user groups, where professionals can share knowledge, showcase their work, and collaborate with peers to advance their skills and stay up-to-date with industry trends.
+* The Microsoft Power BI community also offers learning modules, tutorials, documentation, and support services, including certification programs and career development resources, to help professionals enhance their skills and advance their careers in data analytics and related fields.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Protection Policies for Power BI**: Microsoft Purview protection policies allow controlling access to Fabric items based on their sensitivity label, enabling "classify once, enforce everywhere" data protection, where only authorized users and groups retain access to sensitive data.
+* **Semantic Models as Enforcement Point**: Protection policies currently support Power BI semantic models, which is the most effective enforcement point as semantic models are the data layer, and reports are visualization layers that query these models, ensuring that blocking access to the semantic model renders the report empty.
+* **Label Inheritance and Propagation**: Applying a sensitivity label to a semantic model propagates to connected reports via downstream inheritance, ensuring classification consistency without manual effort, and allowing for a single control point to secure all downstream reports built on that model.
+* **Configuration and Implementation**: To protect Power BI reports using protection policies, configure protection policies in Purview, apply sensitivity labels to semantic models, and utilize features such as default labels, mandatory labeling, and downstream inheritance to ensure consistent and automatic enforcement of data protection policies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
+Here are four technical bullet points summarizing the Power BI blog post:
+
+* **Entra ID Single Sign-On (SSO) for Starburst Connector**: The Starburst secured by Entra ID connector in Power BI (Preview) enables report viewers to authenticate to Starburst with their own Entra ID identity, allowing Starburst's access policies to be evaluated against the actual end user rather than a fixed connection account.
+* **Connector Configuration and Settings**: To enable Entra ID SSO for Starburst, two tenant-level settings must be enabled in the Power BI admin portal: "Enable Starburst SSO" and "Microsoft Entra single sign-on for data gateway", followed by configuring the Starburst data source to select "Use SSO via Azure AD for DirectQuery queries".
+* **DirectQuery Semantic Models and On-Premises Data Gateway Support**: The Starburst secured by Entra ID connector supports both Import and DirectQuery semantic models through the on-premises data gateway, with Entra ID SSO only relevant for DirectQuery mode, where the user's Entra ID token is forwarded to Starburst for validation and authorization.
+* **Use Cases and Migration**: Entra ID SSO for Starburst is recommended when data access policies need to apply to report users in DirectQuery mode, or when audit/compliance rules prohibit using a single connection credential for all users, with existing reports using the original Starburst connector not requiring migration unless Entra ID SSO is needed.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-22
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
