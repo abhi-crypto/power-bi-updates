@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-24
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The blog announces the availability of free certification in Fabric, Power BI, SQL, AI, and other essential data skills for attendees of Fabric Data Days 2026, a 60-day event focused on learning, challenges, and connection.
+* The Microsoft community provides various forums for discussion, including Power BI, Data Engineering, Data Warehouse, Data Science, and Databases, allowing professionals to engage with peers, share knowledge, and get support.
+* The blog highlights the importance of staying updated with the latest developments in Power BI and Fabric through the Power BI Updates Blog and Fabric Updates Blog, which provide news, updates, and insights on these platforms.
+* Professionals can access a range of learning resources, including tutorials, documentation, and certification offers, to enhance their skills and career prospects, as well as participate in user groups, events, and contests to showcase their expertise and stay connected with the community.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Entra ID SSO for Denodo connector**: Microsoft has introduced a preview of Entra ID single sign-on (SSO) for the Denodo connector in Power BI, allowing users to authenticate to Denodo with their Microsoft Entra ID identity, eliminating the need for Kerberos Constrained Delegation (KCD) and Active Directory dependencies.
+* **DirectQuery mode authentication**: When a user queries a semantic model in DirectQuery mode, the Denodo connector supports Entra ID SSO, forwarding the user's Entra ID token to Denodo for authentication, which then evaluates its authorization policies, including row-level and column-level security, against the authenticated user.
+* **Configuration and setup**: To use Entra ID SSO, a Power BI tenant admin must enable Denodo SSO for the data connector and Entra ID SSO for the data gateway, and then select the "Use SSO via Azure AD for DirectQueries queries" checkbox in the Denodo data connector settings, allowing for end-to-end identity flow from the report viewer through Power BI and into Denodo.
+* **Simplified authentication and troubleshooting**: Entra ID SSO simplifies the authentication chain, reducing the complexity and troubleshooting challenges associated with Kerberos SSO, which required synchronized Active Directory environments and delegated service accounts, and instead provides a single identity flow with fewer potential failure points.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932)
+Here are 4 technical bullet points summarizing the Power BI blog on protection policies:
+
+* **Protection policies in Microsoft Purview**: Protection policies are a capability that allows control of access to Fabric items based on their sensitivity label, enabling classify once, enforce everywhere functionality, where access is automatically blocked for unauthorized users at runtime.
+* **Semantic models as the key to protection**: Protection policies currently support Power BI semantic models, which is the most effective enforcement point as semantic models are the data layer and reports are visualization layers that query these models, allowing for a single control point to secure all downstream reports.
+* **Label inheritance and propagation**: Sensitivity labels applied to semantic models propagate to connected reports via downstream inheritance, ensuring classification consistency without manual effort, and can be applied manually or through default labels, mandatory labeling, or downstream inheritance from upstream Fabric items.
+* **Configuration and enforcement**: To protect Power BI reports using protection policies, administrators must configure protection policies in Purview, define labels with associated protection policies, and apply labels to semantic models, after which enforcement is automatic, blocking access to sensitive data for unauthorized users and groups.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-23
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
