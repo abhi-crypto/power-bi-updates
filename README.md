@@ -1,5 +1,14 @@
 # Power BI Link Archive
 
+## 📅 Updates Pulled: 2026-06-27
+* [Microsoft Entra ID single sign-on for the Denodo connector in Power BI (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376)
+* [Protect once, enforce everywhere: Protection policies for Power BI (Generally Available)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932)
+* [Microsoft Entra ID single sign-on for the Starburst connector in Power BI (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Starburst-connector-in/ba-p/5193371)
+* [Workspace outbound access protection for Power BI reports (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Workspace-outbound-access-protection-for-Power-BI-reports/ba-p/5193354)
+* [Org apps with audiences for Power BI and Fabric (Generally Available)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Org-apps-with-audiences-for-Power-BI-and-Fabric-Generally/ba-p/5196326)
+
+---
+
 ## 📅 Updates Pulled: 2026-06-26
 * [Microsoft Entra ID single sign-on for the Denodo connector in Power BI (Preview)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376)
 * [Protect once, enforce everywhere: Protection policies for Power BI (Generally Available)](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932)
