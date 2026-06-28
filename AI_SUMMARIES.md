@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-28
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI community is offering free certification opportunities in Fabric, SQL, and other data skills as part of the Fabric Data Days 2026 event.
+* The event provides access to 60+ days of learning resources, challenges, and networking opportunities to enhance data engineering, data warehouse, data science, and real-time intelligence skills.
+* The Power BI community forums and galleries offer a platform for users to share knowledge, showcase projects, and collaborate with others in the field, including Power BI, Data Factory, and Databases.
+* Microsoft provides various learning resources, including tutorials, documentation, and certification modules, to support professional development and career growth in the field of data analytics and business intelligence.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Entra ID Single Sign-On (SSO) for Denodo Connector**: Power BI now supports Entra ID SSO for the Denodo connector, allowing users to authenticate to Denodo with their Microsoft Entra ID identity, eliminating the need for Kerberos Constrained Delegation (KCD) and on-premises Active Directory dependencies.
+* **Simplified Authentication Flow**: With Entra ID SSO, the authentication flow is simplified, as the gateway forwards the user's Entra ID token straight to Denodo, removing the need for complex KCD configurations, domain-joined gateways, and high-privileged gateway service accounts.
+* **Configuration and Enablement**: To use Entra ID SSO, a Power BI tenant admin must enable Denodo SSO and Entra ID SSO for the data gateway in the tenant admin settings, and then select the "Use SSO via Azure AD for DirectQueries" checkbox in the Denodo data connector settings.
+* **End-to-End Identity Flow**: With Entra ID SSO, the user's identity is passed through from Power BI to the gateway to Denodo, allowing for end-to-end identity flow and enabling Denodo to evaluate its own authorization policies, including row-level and column-level security, against the authenticated user.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Protection Policies in Microsoft Purview**: Protection policies are a Microsoft Purview information protection capability that controls access to Fabric items based on their sensitivity label, allowing organizations to classify data once and enforce access restrictions everywhere.
+* **Semantic Models as the Enforcement Point**: Protection policies currently support Power BI semantic models, which serve as the data layer, and not reports or dashboards directly. This means that protecting the semantic model is the most effective enforcement point, as it secures all downstream reports built on that model.
+* **Label Inheritance and Downstream Propagation**: When a sensitivity label is applied to a semantic model, it propagates to connected reports via downstream inheritance, ensuring classification consistency without manual effort. This allows organizations to maintain consistent data classification and access controls across multiple reports and workspaces.
+* **Configuration and Implementation**: To get started with protection policies, organizations should configure protection policies in Purview, define labels with associated protection policies, and apply labels to semantic models. This can be done manually or through automated features such as default labels, mandatory labeling, and downstream inheritance, ensuring that access to sensitive data is restricted and enforced automatically.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-27
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are four technical bullet points summarizing the Power BI blog for a professional:
