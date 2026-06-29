@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-06-29
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft team is offering free certification opportunities in Fabric, Power BI, SQL, AI, and other essential data skills through the Fabric Data Days 2026 event, which features 60+ days of learning, challenges, and connection.
+* The Fabric Data Days 2026 event provides a platform for professionals to dive into various data-related topics, including data engineering, data warehouse, data science, and real-time intelligence, through interactive forums, galleries, and community engagement.
+* The blog highlights the availability of various learning resources, including tutorials, documentation, and certification offers, to support professionals in upskilling and reskilling in Power BI, Fabric, and other Microsoft data technologies.
+* The Microsoft community provides opportunities for professionals to engage with user groups, attend events, and become Super Users, while also accessing a knowledge base, product support, and community support to resolve technical issues and stay updated on the latest developments in Power BI and Fabric.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376)
+Here are 4 technical bullet points summarizing the Power BI blog post for a professional:
+
+* The Denodo connector in Power BI now supports Microsoft Entra ID single sign-on (SSO) for DirectQuery mode, allowing users to be authenticated with their own Entra ID identity without requiring Kerberos Constrained Delegation (KCD) or an on-premises Active Directory environment.
+* To enable Entra ID SSO, a Power BI tenant admin must turn on Denodo SSO and data gateway SSO in the tenant admin settings, and then select the "Use SSO via Azure AD for DirectQueries queries" checkbox in the Denodo data connector settings.
+* When a user queries a DirectQuery semantic model bound to a Denodo data connection with Entra ID SSO enabled, the user's Entra ID token is forwarded to the gateway and then to Denodo, where it is validated directly with Entra ID using the audience and issuer claims in the token.
+* Denodo then evaluates its own authorization policies, including row-level and column-level security, against the authenticated user, providing end-to-end identity flow from the report viewer through Power BI, the gateway, and into Denodo without any translation step in the middle.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Protect-once-enforce-everywhere-Protection-policies-for-Power-BI/ba-p/5223932)
+Here are 4 technical bullet points summarizing the Power BI blog on protection policies:
+
+* **Protection policies**: Microsoft Purview's protection policies allow controlling access to Fabric items based on their sensitivity label, enabling "classify once, enforce everywhere" security, where access is restricted based on data classification, not just location.
+* **Semantic model protection**: Protection policies currently support Power BI semantic models, which is the most effective enforcement point, as semantic models are the data layer and reports are visualization layers that query these models, making it a single control point to secure all downstream reports.
+* **Label inheritance**: When a sensitivity label is applied to a semantic model, it propagates to connected reports via downstream inheritance, ensuring classification consistency without manual effort, and enabling automatic enforcement of protection policies.
+* **Implementation**: To protect Power BI reports using protection policies, users should configure protection policies in Purview, define labels with associated protection policies, and apply labels to semantic models, either manually or through default labels, mandatory labeling, or downstream inheritance, to ensure automatic enforcement of access restrictions.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-28
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
