@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-07-01
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Microsoft Power BI updates blog provides a platform for users to stay informed about the latest developments and improvements in Power BI, as well as related data skills such as SQL, AI, and data engineering.
+* The blog is part of a larger community ecosystem that includes forums, galleries, and user groups, where professionals can connect, share knowledge, and learn from each other.
+* Microsoft offers free certification opportunities, such as the Fabric Data Days 2026 program, which provides training and resources for professionals to develop essential data skills, including Power BI, SQL, and data science.
+* The blog also provides access to learning modules, tutorials, documentation, and support resources, making it a valuable resource for professionals looking to improve their data analysis and visualization skills using Power BI and related technologies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Desktop-Bridge-Preview/ba-p/5227769)
+Here are four technical bullet points summarizing the Power BI blog on Power BI Desktop Bridge (Preview):
+
+* **Power BI Desktop Bridge Architecture**: The Power BI Desktop Bridge is a lightweight local server that enables external applications and agents to interact directly with Power BI Desktop, providing a secure channel for communication and allowing for automation of repetitive tasks.
+* **Core Capabilities and APIs**: The bridge provides several core capabilities, including discovering available features (bridge.manifest), checking report state (application.state.get/v1), capturing report snapshots (report.snapshot.capture/v1), and reloading files from disk (file.reload/v1), which can be accessed through secure local APIs.
+* **Agent Automation and Integration**: The Power BI Desktop Bridge enables agents to read the current report state, edit report files directly on disk, reload to see changes instantly, validate with live screenshots, and iterate immediately, allowing for seamless automation of report authoring, debugging, and refinement tasks.
+* **Enablement and Configuration**: The Desktop Bridge is enabled by default in Power BI Desktop, but can be disabled or re-enabled through the Options and Settings menu (File > Options and settings > Options > Preview features), allowing users to control access to the bridge and secure local APIs for external tool integration.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-Entra-ID-single-sign-on-for-the-Denodo-connector-in/ba-p/5193376)
+Here are 4 technical bullet points summarizing the Power BI blog on Microsoft Entra ID single sign-on for the Denodo connector:
+
+* **Entra ID SSO**: The Denodo connector in Power BI now supports Microsoft Entra ID single sign-on (SSO), allowing users to authenticate to Denodo with their own Entra ID identity, eliminating the need for Kerberos Constrained Delegation (KCD) and on-premises Active Directory dependencies.
+* **Configuration**: To use Entra ID SSO, a Power BI tenant admin must enable Denodo SSO and data gateway SSO in the tenant admin settings, and then select the "Use SSO via Azure AD for DirectQueries queries" checkbox in the Denodo data connector settings.
+* **Authentication Flow**: When a user queries a DirectQuery semantic model, the semantic model forwards the user's Entra ID token to the gateway, which passes it through to Denodo, where it is validated directly with Entra ID using audience and issuer claims, allowing for end-to-end identity flow and enabling Denodo to evaluate its own authorization policies.
+* **Benefits**: Entra ID SSO simplifies the authentication process, reduces complexity, and eliminates the need for troubleshooting multiple layers of delegation, making it easier for cloud-first organizations and hybrid customers to use Denodo SSO with Power BI, while also supporting row-level and column-level security policies in Denodo.
+
+---
+
+
 ## 🤖 AI Summary: 2026-06-30
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are four technical bullet points summarizing the Power BI blog for a professional:
