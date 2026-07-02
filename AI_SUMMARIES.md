@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-07-02
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI updates blog provides information on the latest developments and features in Power BI, a business analytics service by Microsoft.
+* Microsoft offers free certification opportunities in Fabric, Power BI, SQL, AI, and other essential data skills through events like Fabric Data Days 2026.
+* The blog is part of a larger community platform that includes forums for Power BI, data engineering, data warehouse, data science, and other related topics, allowing professionals to connect, share ideas, and learn from each other.
+* The blog also provides access to various learning resources, including tutorials, documentation, and learning modules, to help professionals develop their skills and stay up-to-date with the latest technologies and trends in data analysis and business intelligence.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-reports-and-Fabric-Apps-Expanding-how-you-build-on-your/ba-p/5234706)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* Power BI reports are built on top of semantic models, which remain essential for bringing together data from various sources, defining logic, and supporting business decisions, with the added capability of AI-powered report creation and modeling.
+* The Power BI Desktop bridge allows for secure local external edits to appear directly in the Power BI Desktop, enabling co-creation and review with just a few clicks, and custom visuals are now easier to build with AI-powered tools.
+* Fabric Apps, powered by AI, provide a new way to build fully functional managed web apps on top of semantic model data in minutes, offering a secure and governed way to combine and surface data, and can be used alongside Power BI reports, notebooks, and other reporting experiences.
+* Both Power BI reports and Fabric Apps leverage the same semantic models, allowing for reuse of business logic and data sources, and providing a range of options for bringing data together, including Direct Lake, data import, and combination of data sources, to create meaningful signals and make data available to stakeholders.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Desktop-Bridge-Preview/ba-p/5227769)
+Here are 4 technical bullet points summarizing the Power BI Desktop Bridge (Preview) for a professional:
+
+* **Direct Interaction**: The Power BI Desktop Bridge introduces a lightweight local server that enables external applications and agents to interact directly with Power BI Desktop, allowing for automation and integration of custom solutions.
+* **Core Capabilities**: The bridge provides several core capabilities, including `bridge.manifest` to discover available capabilities, `application.state.get/v1` to check the report state, `report.snapshot.capture/v1` to capture report screenshots, and `file.reload/v1` to reload files from disk, enabling agents to read report state, edit files, and validate changes.
+* **Automation and Iteration**: The bridge enables agents to automate repetitive tasks, iterate, and improve reports in real-time, by reloading files, validating changes with screenshots, and observing and learning from the report state, reducing the time and effort required to author, debug, and refine reports.
+* **Implementation and Configuration**: The Desktop Bridge is enabled by default in Power BI Desktop and can be configured by going to `File` > `Options and settings` > `Options` > `Preview features` and enabling `External tool access to Power BI Desktop through secure local APIs`, allowing developers to build custom solutions and integrate external tools with Power BI Desktop.
+
+---
+
+
 ## 🤖 AI Summary: 2026-07-01
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
