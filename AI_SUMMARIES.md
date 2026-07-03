@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-07-03
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI updates blog provides access to various resources, including tutorials, documentation, and community support, to help professionals enhance their data skills and stay up-to-date with the latest Power BI developments.
+* The blog is part of the larger Fabric community, which offers forums, galleries, and other resources for data engineering, data warehouse, data science, and real-time intelligence, among other topics.
+* Professionals can take advantage of free certification opportunities, such as those offered through Fabric Data Days 2026, to improve their skills in Power BI, SQL, AI, and other essential data technologies.
+* The blog also provides information on upcoming events, user groups, and career development resources, including the Career Hub and Learn Modules, to support professionals in their ongoing learning and career growth.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-visual-calculations-Adding-calculations-directly/ba-p/5255359)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Visual Calculations**: Power BI now allows users to write DAX calculations directly on a visual, enabling them to calculate exactly what they need to show without adding a model or report measure. This feature is particularly useful when a calculation is specific to a single visual.
+* **Custom Totals for Tables and Matrices**: Custom totals, powered by visual calculations, provide a simple way to adjust the total row to fit reporting needs. Users can choose from built-in aggregation options such as Sum, Average, Min, Max, Count, and Count (distinct) to customize the total calculation for numerical columns in tables and matrices.
+* **Visual Calculation Editor**: The visual calculation edit screen provides a preview of the visual, a formula bar, and the visual matrix that shows the underlying data. Users can write most DAX functions and use visual-specific functions like RUNNINGSUM, MOVINGAVERAGE, and LOOKUP. Built-in templates are also available to make common patterns easier.
+* **DAX Functionality**: Visual calculations support most DAX functions, including those that are specific to visuals, such as PREVIOUS, NEXT, and COLLAPSE. Users can also leverage built-in templates like Running sum, Moving average, and Percent of parent to simplify their calculations and get results immediately as they write their DAX expressions.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-reports-and-Fabric-Apps-Expanding-how-you-build-on-your/ba-p/5234706)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* **Power BI Reports and Semantic Models**: Power BI reports are built on top of semantic models, which provide a foundation for bringing together data from multiple sources, defining logic, and supporting business decisions, with the ability to connect through various tools such as Excel, Fabric notebooks, or other reporting tools.
+* **AI-Driven Report Creation**: The Power BI Desktop bridge allows for secure local external edits to appear directly in the Desktop, enabling co-creation and review, while AI-driven modeling and report authoring capabilities make it easier to create reports and models, with custom visuals now easier to build using AI.
+* **Fabric Apps and Custom Web Development**: Rayfin, an AI-first platform, enables the rapid development of fully functional managed web apps on top of semantic model data in minutes, providing a secure way to leverage powerful resources with AI, and allowing developers to build custom web apps that sit alongside Power BI reports and other reporting experiences.
+* **Unified Data Foundation with OneLake**: Both Power BI reports and Fabric Apps are powered by the same semantic models in OneLake, allowing for standardized visualizations, consistent themes, and reuse of business logic, with the ability to drag and drop visuals and fields in Power BI reports, or use prompts to get specific functionality with Fabric Apps, leveraging CSS and TypeScript.
+
+---
+
+
 ## 🤖 AI Summary: 2026-07-02
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
