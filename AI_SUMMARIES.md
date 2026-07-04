@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-07-04
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft is offering free certification opportunities for professionals to enhance their skills in Fabric, Power BI, SQL, AI, and other essential data skills through the Fabric Data Days 2026 event.
+* The Fabric Data Days 2026 event will feature a range of learning resources, including live and on-demand sessions, challenges, and study groups, all available at no cost to participants.
+* The event is part of a broader effort by Microsoft to support the development of data skills and community engagement, with resources such as user groups, forums, and galleries available for professionals to share knowledge and showcase their work.
+* Professionals can access a range of supporting materials and resources, including tutorials, documentation, and community support, to help them prepare for certification and stay up-to-date with the latest developments in Power BI and related technologies.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft has been named a Leader in the 2026 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms, with Power BI and Microsoft Fabric delivering trusted analytics through semantic models, Copilot experiences, and industry-leading scale.
+* The Microsoft Fabric platform provides a unified data and analytics foundation, simplifying how organizations build and scale analytics, with Power BI at its core, allowing teams to work from a shared data foundation with consistent governance, security, and management across workloads.
+* Power BI semantic models are a key component of the Fabric platform, providing a foundation for AI-assisted workflows and trusted insights, with over 20 million semantic models in use today, and recent innovations including agent skills, TMDL views, and Rayfin enabling custom applications to be built on top of semantic models.
+* The Fabric platform offers a unified pricing model, allowing organizations to adopt new capabilities, optimize capacity, and scale as business needs evolve, with Fabric IQ extending the value of Power BI semantic models by enabling AI experiences to reason over trusted business context, and integrating with other Microsoft services and third-party apps through open formats.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-visual-calculations-Adding-calculations-directly/ba-p/5255359)
+Here are 4 technical bullet points summarizing the Power BI blog for professionals:
+
+* **Visual Calculations**: Power BI now allows users to write DAX calculations directly on a visual, enabling them to calculate exactly what they need to show, without having to add a model or report measure. This feature is particularly useful for calculations specific to a single visual.
+* **Custom Totals**: Custom totals for tables and matrices are now generally available, powered by visual calculations, allowing users to adjust the total row to fit their reporting needs. Users can choose from various aggregation options, such as Sum, Average, Min, Max, Count, and Count (distinct).
+* **Visual Calculation Editor**: The visual calculation editor provides a preview of the visual, a formula bar, and the visual matrix that shows the underlying data. Users can write most DAX functions, including visual-specific functions like RUNNINGSUM, MOVINGAVERAGE, and LOOKUP, and take advantage of built-in templates to simplify common patterns.
+* **Implementation**: To implement visual calculations, users can select a visual and choose "New visual calculation" in the ribbon, or edit an existing calculation using the context menu in the Visualizations pane field list. The results of the calculation appear immediately, allowing users to see exactly what's happening and make adjustments as needed.
+
+---
+
+
 ## 🤖 AI Summary: 2026-07-03
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
