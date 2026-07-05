@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-07-05
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* The Power BI blog announces the opportunity to get certified for free in Fabric, SQL, Power BI, AI, and other essential data skills by joining Fabric Data Days 2026.
+* The blog provides access to various community forums, including Power BI, Data Engineering, Data Warehouse, Data Science, and more, where professionals can connect, share knowledge, and get support.
+* The blog highlights the availability of learning resources, such as tutorials, documentation, and certification offers, to help professionals develop their skills and advance their careers in the field of data analytics and business intelligence.
+* The blog also invites professionals to participate in the "60 Days of Data Days" initiative, which offers live and on-demand sessions, challenges, study groups, and more, all for free, to help them stay up-to-date with the latest trends and technologies in the industry.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* Microsoft has been named a Leader in the 2026 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms, reflecting its continued innovation in delivering trusted analytics through Power BI and Microsoft Fabric, which unifies data, intelligence, and governance.
+* Power BI is at the heart of Microsoft Fabric, a unified data and analytics platform that simplifies how organizations build and scale analytics, with a single capacity unlocking the full breadth of the platform through a unified pricing model, making it easier to adopt new capabilities and scale as business needs evolve.
+* Power BI semantic models, with over 20 million in use, provide the foundation for trusted insights and AI-assisted workflows, allowing organizations to standardize business definitions across M365 services, custom applications, and third-party apps, and enabling AI and agents to reason over trusted metrics instead of raw data.
+* Recent innovations in Power BI include agent skills, TMDL views, and Rayfin, which enable AI agents to understand and interact with governed business data, allow developers and AI coding agents to build custom applications directly on top of semantic models, and extend the value of Power BI semantic models to support AI experiences and workflows.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-visual-calculations-Adding-calculations-directly/ba-p/5255359)
+Here are four technical bullet points summarizing the Power BI blog for a professional:
+
+* **Visual Calculations**: Power BI now allows users to write DAX calculations directly on a visual, enabling them to calculate exactly what they need to show without adding a model or report measure. This feature is particularly useful when a calculation is specific to a single visual.
+* **Custom Totals for Tables and Matrices**: Custom totals, powered by visual calculations, provide a simple way to adjust the total row to fit reporting needs. Users can choose from built-in aggregation options such as Sum, Average, Min, Max, Count, and Count (distinct) to customize the total calculation for numerical columns in tables and matrices.
+* **Visual Calculation Editing and Functions**: To add a visual calculation, users can select a visual and choose "New visual calculation" in the ribbon, which opens the visual calculations edit screen with a preview of the visual, a formula bar, and the visual matrix. The calculation can utilize most DAX functions, including visual-specific functions like RUNNINGSUM, MOVINGAVERAGE, COLLAPSE, PREVIOUS, NEXT, and LOOKUP.
+* **Built-in Templates and Expression Editing**: Visual calculations include built-in templates such as Running sum, Moving average, Percent of parent, Percent of grand total, Versus previous, and Versus last, which can be inserted as a starting expression and adjusted for the data. Users can also edit existing visual calculations using the context menu in the Visualizations pane field list and choose "Edit calculation" to reopen the edit screen.
+
+---
+
+
 ## 🤖 AI Summary: 2026-07-04
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
