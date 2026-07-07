@@ -1,5 +1,35 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-07-07
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Here are 4 technical bullet points summarizing the blog for a professional:
+
+* The Microsoft Power BI blog is offering free certification opportunities for professionals who join the Fabric Data Days 2026 event, covering topics such as Fabric, Power BI, SQL, AI, and data skills.
+* The blog provides access to various community forums, including Power BI, Data Engineering, Data Warehouse, Data Science, and more, where professionals can engage with others, share knowledge, and get support.
+* The blog also features a range of galleries showcasing examples of Power BI, Data Engineering, Data Warehouse, and other data-related projects, providing inspiration and ideas for professionals to improve their skills.
+* Additionally, the blog offers learning resources, including tutorials, documentation, and certification offers, as well as a career hub and community support, to help professionals develop their careers and stay up-to-date with the latest data technologies and trends.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Deep-dive-into-tooltip-options-in-Power-BI-visuals-Generally/ba-p/5255518)
+Here are four technical bullet points summarizing the Power BI blog post for a professional:
+
+* **Default Visual Tooltips and Customization**: Power BI offers a flexible set of tooltip options, allowing report authors to start with default visual tooltips and add customization as needed, including the ability to add extra fields to the tooltip field well to enrich the default tooltip.
+* **Tooltip Fields Only and Sentence Format**: The newly generally available settings, "Tooltip fields only" and "Sentence format", provide report authors with complete control over the hover content, allowing them to curate the list of fields displayed in the tooltip and write a written sentence about the data point using field references wrapped in curly braces.
+* **Report Page Tooltip and Help Tooltip Icon**: Report authors can also replace the default tooltip entirely with a custom report page, and a separate Help tooltip icon in the visual header can be used to provide guidance about the visual itself, coexisting with whichever data tooltip is chosen.
+* **Styling and Formatting Options**: Tooltips inherit colors from the report theme, and report authors can adjust the text, background, and actions of the tooltip in the visual settings, including overriding the theme colors if needed, and using options such as "Bold values" to emphasize substituted values in sentence format tooltips.
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Microsoft-named-a-Leader-in-the-2026-Gartner-Magic-Quadrant-for/ba-p/5262403)
+Here are 4 technical bullet points summarizing the Power BI blog for a professional:
+
+* Microsoft has been named a Leader in the 2026 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms, with Power BI and Microsoft Fabric delivering trusted analytics through semantic models, Copilot experiences, and industry-leading scale to help organizations turn data into confident decisions.
+* The Microsoft Fabric platform provides a unified data and analytics platform for the AI era, simplifying how organizations build and scale analytics by embedding Power BI into a unified end-to-end data and analytics platform with consistent governance, security, and management across workloads.
+* Power BI semantic models are the foundation for AI, providing trusted business definitions that can be queried and reused across M365 services, custom applications, and third-party apps, allowing organizations to standardize business definitions without locking analytics to a single user experience.
+* Recent innovations in Power BI include agent skills, TMDL views, and Rayfin, which enable AI agents to understand and interact with governed business data, and allow developers and AI coding agents to build custom applications directly on top of semantic models, further extending the value of Power BI semantic models in the AI era.
+
+---
+
+
 ## 🤖 AI Summary: 2026-07-06
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Here are 4 technical bullet points summarizing the Power BI blog for a professional:
