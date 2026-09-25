@@ -1,5 +1,20 @@
 # Power BI AI Insight Lab
 
+## 🤖 AI Summary: 2026-09-25
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
+Summary skipped: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Manage-semantic-model-settings-in-context-with-the-default/ba-p/5366792)
+Summary skipped: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+
+---
+### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-Q-A-retirement-reminder-February-2027-timeline-update/ba-p/5365841)
+Summary skipped: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+
+---
+
+
 ## 🤖 AI Summary: 2026-09-24
 ### [Link](https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/fbc_pbiupdatesblog)
 Summary skipped: Error code: 404 - {'error': {'message': 'The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
